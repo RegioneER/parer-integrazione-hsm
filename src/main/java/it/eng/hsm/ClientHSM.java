@@ -1,3 +1,20 @@
+/*
+ * Engineering Ingegneria Informatica S.p.A.
+ *
+ * Copyright (C) 2023 Regione Emilia-Romagna
+ * <p/>
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License, or (at your option) any later version.
+ * <p/>
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ * <p/>
+ * You should have received a copy of the GNU Affero General Public License along with this program.
+ * If not, see <https://www.gnu.org/licenses/>.
+ */
+
 package it.eng.hsm;
 
 import it.eng.hsm.beans.ConfigurationXAdES;
@@ -19,8 +36,9 @@ public interface ClientHSM {
      * Function to open a signature session
      *
      * @param user
+     *            utente HSM
      * 
-     * @return
+     * @return sessione con servizio HSM
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
@@ -38,8 +56,10 @@ public interface ClientHSM {
      * Function to close the signature session
      *
      * @param session
+     *            sesione operativa HSM
      * 
      * @throws it.eng.hsm.HSMException
+     *             eccezione generica
      */
     public void closeSignatureSession(HSMSignatureSession session) throws HSMException;
     // </editor-fold>
@@ -55,7 +75,7 @@ public interface ClientHSM {
      * @param fileToSign
      *            file to sign
      * 
-     * @return
+     * @return array di byte del documento P7M firmato
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
@@ -77,7 +97,7 @@ public interface ClientHSM {
      * @param fileToSign
      *            file to sign
      * 
-     * @return
+     * @return array di byte del documento P7M firmato
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
@@ -103,7 +123,7 @@ public interface ClientHSM {
      * @param fileToSign
      *            file to sign
      * 
-     * @return
+     * @return array di byte del documento XADES firmato
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
@@ -125,8 +145,9 @@ public interface ClientHSM {
      * @param fileToSign
      *            file to sign
      * @param conf
+     *            configurazione XADES
      * 
-     * @return
+     * @return array di byte del documento XADES firmato
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
@@ -148,7 +169,7 @@ public interface ClientHSM {
      * @param fileToSign
      *            file to sign
      * 
-     * @return
+     * @return array di byte del documento XADES firmato
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
@@ -170,8 +191,9 @@ public interface ClientHSM {
      * @param fileToSign
      *            file to sign
      * @param conf
+     *            configurazione XADES
      * 
-     * @return
+     * @return array di byte del documento XADES firmato
      * 
      * @throws AuthenticationException
      *             if the user credentials aren't correct
