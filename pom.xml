@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.eng.parer</groupId>
     <artifactId>client-hsm</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>Client HSM</name>
     <description>Modulo per effettuare firma e validazione di documenti firmati interagendo col sistema HSM.</description>
@@ -85,7 +85,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/RegioneER/parer-integrazione-hsm.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>client-hsm-1.0.2</tag>
     </scm>
 
     <reporting>
