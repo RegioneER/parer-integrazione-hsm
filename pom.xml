@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.eng.parer</groupId>
     <artifactId>client-hsm</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Client HSM</name>
     <description>Modulo per effettuare firma e validazione di documenti firmati interagendo col sistema HSM.</description>
@@ -10,12 +10,8 @@
     <parent>
         <groupId>it.eng.parer</groupId>
         <artifactId>parer-pom</artifactId>
-        <version>4.2.0</version>
+        <version>6.4.1</version>
     </parent>
-    
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <distributionManagement>
         <repository>
@@ -29,7 +25,11 @@
             <id>github</id>
             <url>https://maven.pkg.github.com/RegioneER/parer-framework-parerpom</url>            
         </repository>         
-	</repositories>
+   </repositories>
+	
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -62,45 +62,61 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.10</version>
         </dependency>
+        
+		<!--JDK 11 -->
+        <dependency>
+            <groupId>javax.xml.ws</groupId>
+            <artifactId>jaxws-api</artifactId>
+            <version>${jaxws-api.version}</version>
+        </dependency>
+		<!-- JAXB -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+			<version>${jaxb.version}</version>
+        </dependency>
+        <!-- JAXWS -->
+		<dependency>
+			<groupId>org.jboss.spec</groupId>
+			<artifactId>jboss-jakartaee-8.0</artifactId>
+			<type>pom</type>
+			<version>${jboss-jakartaee-8.0.version}</version>
+		</dependency>
     </dependencies>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
+                <artifactId>maven-compiler-plugin</artifactId>               
             </plugin>
             <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<!-- Esclusione dai javadoc delle classi generate da jaxb -->
-					<excludePackageNames>it.eng.hsm.prod.*:it.eng.hsm.test.*</excludePackageNames>
-				</configuration>
-			</plugin>		
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <!-- Esclusione dai javadoc delle classi generate da jaxb -->
+                    <excludePackageNames>it.eng.hsm.prod.*:it.eng.hsm.test.*</excludePackageNames>
+                </configuration>
+            </plugin>		
         </plugins>
 
     </build>
 
-    <scm>
+<scm>
         <developerConnection>scm:git:https://github.com/RegioneER/parer-integrazione-hsm.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <reporting>
         <plugins>
-          	<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<!-- Esclusione dai javadoc delle classi generate da jaxb -->
-					<excludePackageNames>it.eng.hsm.prod.*:it.eng.hsm.test.*</excludePackageNames>
-				</configuration>
-			</plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <!-- Esclusione dai javadoc delle classi generate da jaxb -->
+                    <excludePackageNames>it.eng.hsm.prod.*:it.eng.hsm.test.*</excludePackageNames>
+                </configuration>
+            </plugin>
         </plugins>
     </reporting>
 </project>

@@ -122,6 +122,8 @@ public interface ClientHSM {
      *            the user who requires the signature
      * @param fileToSign
      *            file to sign
+     * @param marcaTemporale
+     *            marca temporale si/no
      * 
      * @return array di byte del documento XADES firmato
      * 
@@ -134,7 +136,7 @@ public interface ClientHSM {
      * @throws HSMException
      *             if a generic error occurs
      */
-    public byte[] signXAdES(HSMUser user, byte[] fileToSign)
+    public byte[] signXAdES(HSMUser user, byte[] fileToSign, boolean marcaTemporale)
             throws AuthenticationException, OTPException, UserBlockedException, HSMException;
 
     /**
@@ -168,6 +170,8 @@ public interface ClientHSM {
      *            the signature session has to be previously opened
      * @param fileToSign
      *            file to sign
+     * @param marcaTemporale
+     *            marca temporale si/no
      * 
      * @return array di byte del documento XADES firmato
      * 
@@ -180,7 +184,7 @@ public interface ClientHSM {
      * @throws HSMException
      *             if a generic error occurs
      */
-    public byte[] signXAdES(HSMSignatureSession session, byte[] fileToSign)
+    public byte[] signXAdES(HSMSignatureSession session, byte[] fileToSign, boolean marcaTemporale)
             throws AuthenticationException, OTPException, UserBlockedException, HSMException;
 
     /**
