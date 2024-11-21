@@ -63,7 +63,7 @@ public class RemoteSignatureXadesParams {
     protected String signatureId;
     @XmlElement(required = true, nillable = true)
     protected String type;
-    @XmlElement(required = true, nillable = true)
+    @XmlElement(required = true, nillable = false)
     protected String validationData;
 
     /**

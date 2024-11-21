@@ -192,7 +192,12 @@ class ClientHSM_Test implements ClientHSM {
 
     // <editor-fold defaultstate="collapsed" desc="XAdES functions">
     private static ConfigurationXAdES getDefaultConfigurationXAdES() {
-        return new ConfigurationXAdES(XAdES.PROFILES.BES, XAdES.TYPE.DETACHED, XAdES.VALIDATION.T);
+        // return new ConfigurationXAdES(XAdES.PROFILES.BES, XAdES.TYPE.DETACHED, XAdES.VALIDATION.T);
+        return new ConfigurationXAdES(XAdES.PROFILES.BES, null, null);
+    }
+
+    private static ConfigurationXAdES getConfigurationXAdESWithTimestamp() {
+        return new ConfigurationXAdES(XAdES.PROFILES.BES, null, XAdES.VALIDATION.T);
     }
 
     @Override
@@ -207,7 +212,7 @@ class ClientHSM_Test implements ClientHSM {
     }
 
     @Override
-    public byte[] signXAdES(HSMUser user, byte[] fileToSign) throws HSMException {
+    public byte[] signXAdES(HSMUser user, byte[] fileToSign, boolean marcaTemporale) throws HSMException {
 
         byte[] result = null;
 
@@ -215,7 +220,8 @@ class ClientHSM_Test implements ClientHSM {
             throw new IllegalArgumentException();
         }
 
-        result = signsXAdES(getRemoteSignatureCredentials(user), fileToSign, getDefaultConfigurationXAdES());
+        result = signsXAdES(getRemoteSignatureCredentials(user), fileToSign,
+                marcaTemporale ? getConfigurationXAdESWithTimestamp() : getDefaultConfigurationXAdES());
         return result;
     }
 
@@ -232,7 +238,8 @@ class ClientHSM_Test implements ClientHSM {
     }
 
     @Override
-    public byte[] signXAdES(HSMSignatureSession session, byte[] fileToSign) throws HSMException {
+    public byte[] signXAdES(HSMSignatureSession session, byte[] fileToSign, boolean marcaTemporale)
+            throws HSMException {
         byte[] result = null;
 
         if (session == null || fileToSign == null) {
@@ -240,7 +247,7 @@ class ClientHSM_Test implements ClientHSM {
         }
 
         result = signsXAdES(getRemoteSignatureCredentials(session.getUser()), fileToSign,
-                getDefaultConfigurationXAdES());
+                marcaTemporale ? getConfigurationXAdESWithTimestamp() : getDefaultConfigurationXAdES());
         return result;
     }
 
@@ -275,6 +282,7 @@ class ClientHSM_Test implements ClientHSM {
         }
 
         try {
+            logger.info("Validazione XADES richiesta: {}", params.getValidationData());
             signedBytes = client.signXAdES(credentials, fileToSign, Constants.DIGEST_TYPE, null, params);
             logger.debug("Test HSM - " + credentials.getUserid() + " signed a XAdES file");
         } catch (RemoteSignatureExceptionException er) {
