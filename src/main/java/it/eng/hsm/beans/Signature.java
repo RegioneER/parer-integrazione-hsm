@@ -46,7 +46,7 @@ public abstract class Signature {
 
     /**
      * Constructor for a signature
-     * 
+     *
      * @param certificate
      *            mandatory
      * @param digestAlg
@@ -59,7 +59,7 @@ public abstract class Signature {
 
     /**
      * Constructor for a signature.
-     * 
+     *
      * @param certificate
      *            mandatory
      * @param digestAlg

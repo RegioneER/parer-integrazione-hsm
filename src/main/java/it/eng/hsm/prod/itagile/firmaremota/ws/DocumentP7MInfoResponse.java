@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "documentP7MInfoReturn" })
@@ -54,9 +54,9 @@ public class DocumentP7MInfoResponse {
 
     /**
      * Gets the value of the documentP7MInfoReturn property.
-     * 
+     *
      * @return possible object is {@link SignatureDocumentInfo }
-     * 
+     *
      */
     public SignatureDocumentInfo getDocumentP7MInfoReturn() {
         return documentP7MInfoReturn;
@@ -64,10 +64,10 @@ public class DocumentP7MInfoResponse {
 
     /**
      * Sets the value of the documentP7MInfoReturn property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureDocumentInfo }
-     * 
+     *
      */
     public void setDocumentP7MInfoReturn(SignatureDocumentInfo value) {
         this.documentP7MInfoReturn = value;

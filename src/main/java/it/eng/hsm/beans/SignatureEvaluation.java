@@ -30,7 +30,7 @@ public class SignatureEvaluation {
     private CertificateEvaluation certificateEvaluation;
 
     /**
-     * 
+     *
      * @param signature
      *            wrapper firma
      * @param invalidSignDescription

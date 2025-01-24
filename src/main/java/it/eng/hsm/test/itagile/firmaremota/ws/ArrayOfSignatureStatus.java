@@ -27,10 +27,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for ArrayOfSignatureStatus complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="ArrayOfSignatureStatus">
  *   &lt;complexContent>
@@ -42,8 +42,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ArrayOfSignatureStatus", propOrder = { "item" })
@@ -54,24 +54,24 @@ public class ArrayOfSignatureStatus {
 
     /**
      * Gets the value of the item property.
-     * 
+     *
      * <p>
      * This accessor method returns a reference to the live list, not a snapshot. Therefore any modification you make to
      * the returned list will be present inside the JAXB object. This is why there is not a <CODE>set</CODE> method for
      * the item property.
-     * 
+     *
      * <p>
      * For example, to add a new item, do as follows:
-     * 
+     *
      * <pre>
      * getItem().add(newItem);
      * </pre>
-     * 
-     * 
+     *
+     *
      * <p>
      * Objects of the following type(s) are allowed in the list {@link SignatureStatus }
-     * 
-     * 
+     *
+     *
      */
     public List<SignatureStatus> getItem() {
         if (item == null) {

@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -47,8 +47,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "signatureCred", "content", "contentInAttachments", "p7M", "digestType",
@@ -72,9 +72,9 @@ public class SignP7M {
 
     /**
      * Gets the value of the signatureCred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getSignatureCred() {
         return signatureCred;
@@ -82,10 +82,10 @@ public class SignP7M {
 
     /**
      * Sets the value of the signatureCred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setSignatureCred(RemoteSignatureCredentials value) {
         this.signatureCred = value;
@@ -93,7 +93,7 @@ public class SignP7M {
 
     /**
      * Gets the value of the content property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getContent() {
@@ -102,7 +102,7 @@ public class SignP7M {
 
     /**
      * Sets the value of the content property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -112,7 +112,7 @@ public class SignP7M {
 
     /**
      * Gets the value of the contentInAttachments property.
-     * 
+     *
      */
     public boolean isContentInAttachments() {
         return contentInAttachments;
@@ -120,7 +120,7 @@ public class SignP7M {
 
     /**
      * Sets the value of the contentInAttachments property.
-     * 
+     *
      */
     public void setContentInAttachments(boolean value) {
         this.contentInAttachments = value;
@@ -128,7 +128,7 @@ public class SignP7M {
 
     /**
      * Gets the value of the p7M property.
-     * 
+     *
      */
     public boolean isP7M() {
         return p7M;
@@ -136,7 +136,7 @@ public class SignP7M {
 
     /**
      * Sets the value of the p7M property.
-     * 
+     *
      */
     public void setP7M(boolean value) {
         this.p7M = value;
@@ -144,9 +144,9 @@ public class SignP7M {
 
     /**
      * Gets the value of the digestType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestType() {
         return digestType;
@@ -154,10 +154,10 @@ public class SignP7M {
 
     /**
      * Sets the value of the digestType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestType(String value) {
         this.digestType = value;
@@ -165,7 +165,7 @@ public class SignP7M {
 
     /**
      * Gets the value of the x509Certificate property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getX509Certificate() {
@@ -174,7 +174,7 @@ public class SignP7M {
 
     /**
      * Sets the value of the x509Certificate property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -184,9 +184,9 @@ public class SignP7M {
 
     /**
      * Gets the value of the flags property.
-     * 
+     *
      * @return possible object is {@link SignatureFlags }
-     * 
+     *
      */
     public SignatureFlags getFlags() {
         return flags;
@@ -194,10 +194,10 @@ public class SignP7M {
 
     /**
      * Sets the value of the flags property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureFlags }
-     * 
+     *
      */
     public void setFlags(SignatureFlags value) {
         this.flags = value;

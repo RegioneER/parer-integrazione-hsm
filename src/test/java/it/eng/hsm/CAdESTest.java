@@ -91,7 +91,7 @@ public class CAdESTest {
 
     /**
      * Signs a test file to P7M signature
-     * 
+     *
      * @param args
      */
     public static void main(String[] args) {

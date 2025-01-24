@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for Signatures complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="Signatures">
  *   &lt;complexContent>
@@ -40,8 +40,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Signatures", propOrder = { "signatures" })
@@ -52,9 +52,9 @@ public class Signatures {
 
     /**
      * Gets the value of the signatures property.
-     * 
+     *
      * @return possible object is {@link ArrayOfSignature }
-     * 
+     *
      */
     public ArrayOfSignature getSignatures() {
         return signatures;
@@ -62,10 +62,10 @@ public class Signatures {
 
     /**
      * Sets the value of the signatures property.
-     * 
+     *
      * @param value
      *            allowed object is {@link ArrayOfSignature }
-     * 
+     *
      */
     public void setSignatures(ArrayOfSignature value) {
         this.signatures = value;

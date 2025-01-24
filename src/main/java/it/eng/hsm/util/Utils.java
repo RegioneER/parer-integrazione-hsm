@@ -34,7 +34,7 @@ public class Utils {
      *
      * @param fileName
      *            the filename of the request file
-     * 
+     *
      * @return {@link File} individuato
      */
     public static File getFileFromResources(String fileName) {
@@ -50,10 +50,10 @@ public class Utils {
     /**
      * Returns the {@link InputStream} of the request file if it belong to the resources otherwise returns
      * <code>null</code>.
-     * 
+     *
      * @param fileName
      *            the filename of the request file
-     * 
+     *
      * @return {@link InputStream} del file individuato
      */
     public static InputStream getFileFromResourcesAsStream(String fileName) {

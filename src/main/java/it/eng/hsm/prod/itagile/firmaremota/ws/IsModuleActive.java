@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "moduleName" })
@@ -54,9 +54,9 @@ public class IsModuleActive {
 
     /**
      * Gets the value of the moduleName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getModuleName() {
         return moduleName;
@@ -64,10 +64,10 @@ public class IsModuleActive {
 
     /**
      * Sets the value of the moduleName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setModuleName(String value) {
         this.moduleName = value;

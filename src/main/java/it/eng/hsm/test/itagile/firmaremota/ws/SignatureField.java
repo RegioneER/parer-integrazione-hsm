@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for SignatureField complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="SignatureField">
  *   &lt;complexContent>
@@ -48,8 +48,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SignatureField", propOrder = { "name", "signed", "page", "position", "pageH", "visible", "signer",
@@ -77,9 +77,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the name property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getName() {
         return name;
@@ -87,10 +87,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the name property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setName(String value) {
         this.name = value;
@@ -98,9 +98,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the signed property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isSigned() {
         return signed;
@@ -108,10 +108,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the signed property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setSigned(Boolean value) {
         this.signed = value;
@@ -119,9 +119,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the page property.
-     * 
+     *
      * @return possible object is {@link Integer }
-     * 
+     *
      */
     public Integer getPage() {
         return page;
@@ -129,10 +129,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the page property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Integer }
-     * 
+     *
      */
     public void setPage(Integer value) {
         this.page = value;
@@ -140,9 +140,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the position property.
-     * 
+     *
      * @return possible object is {@link ArrayOfPosition }
-     * 
+     *
      */
     public ArrayOfPosition getPosition() {
         return position;
@@ -150,10 +150,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the position property.
-     * 
+     *
      * @param value
      *            allowed object is {@link ArrayOfPosition }
-     * 
+     *
      */
     public void setPosition(ArrayOfPosition value) {
         this.position = value;
@@ -161,9 +161,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the pageH property.
-     * 
+     *
      * @return possible object is {@link Integer }
-     * 
+     *
      */
     public Integer getPageH() {
         return pageH;
@@ -171,10 +171,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the pageH property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Integer }
-     * 
+     *
      */
     public void setPageH(Integer value) {
         this.pageH = value;
@@ -182,9 +182,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the visible property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isVisible() {
         return visible;
@@ -192,10 +192,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the visible property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setVisible(Boolean value) {
         this.visible = value;
@@ -203,9 +203,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the signer property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getSigner() {
         return signer;
@@ -213,10 +213,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the signer property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setSigner(String value) {
         this.signer = value;
@@ -224,9 +224,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the location property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getLocation() {
         return location;
@@ -234,10 +234,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the location property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setLocation(String value) {
         this.location = value;
@@ -245,9 +245,9 @@ public class SignatureField {
 
     /**
      * Gets the value of the reason property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getReason() {
         return reason;
@@ -255,10 +255,10 @@ public class SignatureField {
 
     /**
      * Sets the value of the reason property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setReason(String value) {
         this.reason = value;

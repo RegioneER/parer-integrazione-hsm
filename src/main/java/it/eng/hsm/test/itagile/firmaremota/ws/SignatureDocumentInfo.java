@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for SignatureDocumentInfo complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="SignatureDocumentInfo">
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SignatureDocumentInfo", propOrder = { "signatures", "content" })
@@ -55,9 +55,9 @@ public class SignatureDocumentInfo {
 
     /**
      * Gets the value of the signatures property.
-     * 
+     *
      * @return possible object is {@link Signatures }
-     * 
+     *
      */
     public Signatures getSignatures() {
         return signatures;
@@ -65,10 +65,10 @@ public class SignatureDocumentInfo {
 
     /**
      * Sets the value of the signatures property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Signatures }
-     * 
+     *
      */
     public void setSignatures(Signatures value) {
         this.signatures = value;
@@ -76,7 +76,7 @@ public class SignatureDocumentInfo {
 
     /**
      * Gets the value of the content property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getContent() {
@@ -85,7 +85,7 @@ public class SignatureDocumentInfo {
 
     /**
      * Sets the value of the content property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */

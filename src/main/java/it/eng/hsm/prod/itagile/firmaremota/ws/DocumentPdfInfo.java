@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -44,8 +44,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "signedDocument", "verifySignatures", "extractFields", "extractX509" })
@@ -60,7 +60,7 @@ public class DocumentPdfInfo {
 
     /**
      * Gets the value of the signedDocument property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getSignedDocument() {
@@ -69,7 +69,7 @@ public class DocumentPdfInfo {
 
     /**
      * Sets the value of the signedDocument property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -79,7 +79,7 @@ public class DocumentPdfInfo {
 
     /**
      * Gets the value of the verifySignatures property.
-     * 
+     *
      */
     public boolean isVerifySignatures() {
         return verifySignatures;
@@ -87,7 +87,7 @@ public class DocumentPdfInfo {
 
     /**
      * Sets the value of the verifySignatures property.
-     * 
+     *
      */
     public void setVerifySignatures(boolean value) {
         this.verifySignatures = value;
@@ -95,7 +95,7 @@ public class DocumentPdfInfo {
 
     /**
      * Gets the value of the extractFields property.
-     * 
+     *
      */
     public boolean isExtractFields() {
         return extractFields;
@@ -103,7 +103,7 @@ public class DocumentPdfInfo {
 
     /**
      * Sets the value of the extractFields property.
-     * 
+     *
      */
     public void setExtractFields(boolean value) {
         this.extractFields = value;
@@ -111,7 +111,7 @@ public class DocumentPdfInfo {
 
     /**
      * Gets the value of the extractX509 property.
-     * 
+     *
      */
     public boolean isExtractX509() {
         return extractX509;
@@ -119,7 +119,7 @@ public class DocumentPdfInfo {
 
     /**
      * Sets the value of the extractX509 property.
-     * 
+     *
      */
     public void setExtractX509(boolean value) {
         this.extractX509 = value;

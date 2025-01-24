@@ -28,10 +28,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -44,8 +44,8 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "certBuf", "checkTime" })
@@ -60,7 +60,7 @@ public class VerifyCertificateAtTime {
 
     /**
      * Gets the value of the certBuf property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getCertBuf() {
@@ -69,7 +69,7 @@ public class VerifyCertificateAtTime {
 
     /**
      * Sets the value of the certBuf property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -79,9 +79,9 @@ public class VerifyCertificateAtTime {
 
     /**
      * Gets the value of the checkTime property.
-     * 
+     *
      * @return possible object is {@link XMLGregorianCalendar }
-     * 
+     *
      */
     public XMLGregorianCalendar getCheckTime() {
         return checkTime;
@@ -89,10 +89,10 @@ public class VerifyCertificateAtTime {
 
     /**
      * Sets the value of the checkTime property.
-     * 
+     *
      * @param value
      *            allowed object is {@link XMLGregorianCalendar }
-     * 
+     *
      */
     public void setCheckTime(XMLGregorianCalendar value) {
         this.checkTime = value;

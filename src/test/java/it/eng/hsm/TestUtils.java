@@ -22,8 +22,8 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * 
- * 
+ *
+ *
  * @author Moretti_Lu
  */
 public class TestUtils {
@@ -37,7 +37,7 @@ public class TestUtils {
      * Creates a temporary file (a file that will be deleted at the application closing). Must use only in test!
      *
      * @param fileName
-     * 
+     *
      * @return
      */
     static File getTempFile(String fileName) {

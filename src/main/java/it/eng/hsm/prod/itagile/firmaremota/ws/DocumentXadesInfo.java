@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -44,8 +44,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "signedDocument", "verifySignatures", "extractContent", "extractX509" })
@@ -60,7 +60,7 @@ public class DocumentXadesInfo {
 
     /**
      * Gets the value of the signedDocument property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getSignedDocument() {
@@ -69,7 +69,7 @@ public class DocumentXadesInfo {
 
     /**
      * Sets the value of the signedDocument property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -79,7 +79,7 @@ public class DocumentXadesInfo {
 
     /**
      * Gets the value of the verifySignatures property.
-     * 
+     *
      */
     public boolean isVerifySignatures() {
         return verifySignatures;
@@ -87,7 +87,7 @@ public class DocumentXadesInfo {
 
     /**
      * Sets the value of the verifySignatures property.
-     * 
+     *
      */
     public void setVerifySignatures(boolean value) {
         this.verifySignatures = value;
@@ -95,7 +95,7 @@ public class DocumentXadesInfo {
 
     /**
      * Gets the value of the extractContent property.
-     * 
+     *
      */
     public boolean isExtractContent() {
         return extractContent;
@@ -103,7 +103,7 @@ public class DocumentXadesInfo {
 
     /**
      * Sets the value of the extractContent property.
-     * 
+     *
      */
     public void setExtractContent(boolean value) {
         this.extractContent = value;
@@ -111,7 +111,7 @@ public class DocumentXadesInfo {
 
     /**
      * Gets the value of the extractX509 property.
-     * 
+     *
      */
     public boolean isExtractX509() {
         return extractX509;
@@ -119,7 +119,7 @@ public class DocumentXadesInfo {
 
     /**
      * Sets the value of the extractX509 property.
-     * 
+     *
      */
     public void setExtractX509(boolean value) {
         this.extractX509 = value;

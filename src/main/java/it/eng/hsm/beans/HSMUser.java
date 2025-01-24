@@ -63,7 +63,7 @@ public class HSMUser {
 
     /**
      * Clean the information about password and OTP; this method has to be used when you finished to use credentials.
-     * 
+     *
      */
     public void cleanUser() {
         Arrays.fill(passwd, '0');

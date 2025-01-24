@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "timestampTokenReturn" })
@@ -54,7 +54,7 @@ public class TimestampTokenResponse {
 
     /**
      * Gets the value of the timestampTokenReturn property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getTimestampTokenReturn() {
@@ -63,7 +63,7 @@ public class TimestampTokenResponse {
 
     /**
      * Sets the value of the timestampTokenReturn property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */

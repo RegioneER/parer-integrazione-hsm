@@ -59,7 +59,7 @@ class ClientHSM_Prod implements ClientHSM {
      * {@link HSMUser})
      *
      * @param user
-     * 
+     *
      * @return
      */
     private static RemoteSignatureCredentials getRemoteSignatureCredentials(HSMUser user) {
@@ -72,7 +72,7 @@ class ClientHSM_Prod implements ClientHSM {
 
     /**
      * Verifies if the module VERIFY of the HSM is active
-     * 
+     *
      * @return
      */
     @Override

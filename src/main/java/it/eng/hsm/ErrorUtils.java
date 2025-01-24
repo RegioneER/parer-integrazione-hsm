@@ -66,9 +66,9 @@ class ErrorUtils {
 
     /**
      * Returns the description of the error, otherwise returns <code>UNKNOWN_ERROR</code>.
-     * 
+     *
      * @param errorCod
-     * 
+     *
      * @return
      */
     public static String getErrorDescription(String errorCod) {
@@ -85,9 +85,9 @@ class ErrorUtils {
 
     /**
      * Launches the correct exception after an HSM error.
-     * 
+     *
      * @param errorCod
-     * 
+     *
      * @throws AuthenticationException
      * @throws OTPException
      * @throws HSMException

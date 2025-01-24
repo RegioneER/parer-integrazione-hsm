@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "findUserReturn" })
@@ -54,9 +54,9 @@ public class FindUserResponse {
 
     /**
      * Gets the value of the findUserReturn property.
-     * 
+     *
      * @return possible object is {@link UserInfo }
-     * 
+     *
      */
     public UserInfo getFindUserReturn() {
         return findUserReturn;
@@ -64,10 +64,10 @@ public class FindUserResponse {
 
     /**
      * Sets the value of the findUserReturn property.
-     * 
+     *
      * @param value
      *            allowed object is {@link UserInfo }
-     * 
+     *
      */
     public void setFindUserReturn(UserInfo value) {
         this.findUserReturn = value;

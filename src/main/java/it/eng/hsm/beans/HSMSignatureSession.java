@@ -50,7 +50,7 @@ public class HSMSignatureSession {
 
     /**
      * Clean the information about user; this method has to be used when you finished to use credentials.
-     * 
+     *
      */
     public void cleanSession() {
         user.cleanUser();

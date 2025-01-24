@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for Signature complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="Signature">
  *   &lt;complexContent>
@@ -69,8 +69,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Signature", propOrder = { "signType", "digestAlg", "signTime", "givenName", "surName", "fiscalCode",
@@ -142,9 +142,9 @@ public class Signature {
 
     /**
      * Gets the value of the signType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getSignType() {
         return signType;
@@ -152,10 +152,10 @@ public class Signature {
 
     /**
      * Sets the value of the signType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setSignType(String value) {
         this.signType = value;
@@ -163,9 +163,9 @@ public class Signature {
 
     /**
      * Gets the value of the digestAlg property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestAlg() {
         return digestAlg;
@@ -173,10 +173,10 @@ public class Signature {
 
     /**
      * Sets the value of the digestAlg property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestAlg(String value) {
         this.digestAlg = value;
@@ -184,9 +184,9 @@ public class Signature {
 
     /**
      * Gets the value of the signTime property.
-     * 
+     *
      * @return possible object is {@link Long }
-     * 
+     *
      */
     public Long getSignTime() {
         return signTime;
@@ -194,10 +194,10 @@ public class Signature {
 
     /**
      * Sets the value of the signTime property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Long }
-     * 
+     *
      */
     public void setSignTime(Long value) {
         this.signTime = value;
@@ -205,9 +205,9 @@ public class Signature {
 
     /**
      * Gets the value of the givenName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getGivenName() {
         return givenName;
@@ -215,10 +215,10 @@ public class Signature {
 
     /**
      * Sets the value of the givenName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setGivenName(String value) {
         this.givenName = value;
@@ -226,9 +226,9 @@ public class Signature {
 
     /**
      * Gets the value of the surName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getSurName() {
         return surName;
@@ -236,10 +236,10 @@ public class Signature {
 
     /**
      * Sets the value of the surName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setSurName(String value) {
         this.surName = value;
@@ -247,9 +247,9 @@ public class Signature {
 
     /**
      * Gets the value of the fiscalCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getFiscalCode() {
         return fiscalCode;
@@ -257,10 +257,10 @@ public class Signature {
 
     /**
      * Sets the value of the fiscalCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setFiscalCode(String value) {
         this.fiscalCode = value;
@@ -268,9 +268,9 @@ public class Signature {
 
     /**
      * Gets the value of the organization property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getOrganization() {
         return organization;
@@ -278,10 +278,10 @@ public class Signature {
 
     /**
      * Sets the value of the organization property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setOrganization(String value) {
         this.organization = value;
@@ -289,9 +289,9 @@ public class Signature {
 
     /**
      * Gets the value of the orgUnit property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getOrgUnit() {
         return orgUnit;
@@ -299,10 +299,10 @@ public class Signature {
 
     /**
      * Sets the value of the orgUnit property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setOrgUnit(String value) {
         this.orgUnit = value;
@@ -310,9 +310,9 @@ public class Signature {
 
     /**
      * Gets the value of the certID property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCertID() {
         return certID;
@@ -320,10 +320,10 @@ public class Signature {
 
     /**
      * Sets the value of the certID property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCertID(String value) {
         this.certID = value;
@@ -331,9 +331,9 @@ public class Signature {
 
     /**
      * Gets the value of the certType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCertType() {
         return certType;
@@ -341,10 +341,10 @@ public class Signature {
 
     /**
      * Sets the value of the certType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCertType(String value) {
         this.certType = value;
@@ -352,9 +352,9 @@ public class Signature {
 
     /**
      * Gets the value of the certSerial property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCertSerial() {
         return certSerial;
@@ -362,10 +362,10 @@ public class Signature {
 
     /**
      * Sets the value of the certSerial property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCertSerial(String value) {
         this.certSerial = value;
@@ -373,9 +373,9 @@ public class Signature {
 
     /**
      * Gets the value of the certKeyUsage property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCertKeyUsage() {
         return certKeyUsage;
@@ -383,10 +383,10 @@ public class Signature {
 
     /**
      * Sets the value of the certKeyUsage property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCertKeyUsage(String value) {
         this.certKeyUsage = value;
@@ -394,9 +394,9 @@ public class Signature {
 
     /**
      * Gets the value of the trustSp property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getTrustSp() {
         return trustSp;
@@ -404,10 +404,10 @@ public class Signature {
 
     /**
      * Sets the value of the trustSp property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setTrustSp(String value) {
         this.trustSp = value;
@@ -415,9 +415,9 @@ public class Signature {
 
     /**
      * Gets the value of the certDateFrom property.
-     * 
+     *
      * @return possible object is {@link Long }
-     * 
+     *
      */
     public Long getCertDateFrom() {
         return certDateFrom;
@@ -425,10 +425,10 @@ public class Signature {
 
     /**
      * Sets the value of the certDateFrom property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Long }
-     * 
+     *
      */
     public void setCertDateFrom(Long value) {
         this.certDateFrom = value;
@@ -436,9 +436,9 @@ public class Signature {
 
     /**
      * Gets the value of the certDateTo property.
-     * 
+     *
      * @return possible object is {@link Long }
-     * 
+     *
      */
     public Long getCertDateTo() {
         return certDateTo;
@@ -446,10 +446,10 @@ public class Signature {
 
     /**
      * Sets the value of the certDateTo property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Long }
-     * 
+     *
      */
     public void setCertDateTo(Long value) {
         this.certDateTo = value;
@@ -457,9 +457,9 @@ public class Signature {
 
     /**
      * Gets the value of the timestamp property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isTimestamp() {
         return timestamp;
@@ -467,10 +467,10 @@ public class Signature {
 
     /**
      * Sets the value of the timestamp property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setTimestamp(Boolean value) {
         this.timestamp = value;
@@ -478,9 +478,9 @@ public class Signature {
 
     /**
      * Gets the value of the tsAuthority property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getTsAuthority() {
         return tsAuthority;
@@ -488,10 +488,10 @@ public class Signature {
 
     /**
      * Sets the value of the tsAuthority property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setTsAuthority(String value) {
         this.tsAuthority = value;
@@ -499,9 +499,9 @@ public class Signature {
 
     /**
      * Gets the value of the tsLenght property.
-     * 
+     *
      * @return possible object is {@link Long }
-     * 
+     *
      */
     public Long getTsLenght() {
         return tsLenght;
@@ -509,10 +509,10 @@ public class Signature {
 
     /**
      * Sets the value of the tsLenght property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Long }
-     * 
+     *
      */
     public void setTsLenght(Long value) {
         this.tsLenght = value;
@@ -520,9 +520,9 @@ public class Signature {
 
     /**
      * Gets the value of the signatureField property.
-     * 
+     *
      * @return possible object is {@link SignatureField }
-     * 
+     *
      */
     public SignatureField getSignatureField() {
         return signatureField;
@@ -530,10 +530,10 @@ public class Signature {
 
     /**
      * Sets the value of the signatureField property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureField }
-     * 
+     *
      */
     public void setSignatureField(SignatureField value) {
         this.signatureField = value;
@@ -541,9 +541,9 @@ public class Signature {
 
     /**
      * Gets the value of the valid property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isValid() {
         return valid;
@@ -551,10 +551,10 @@ public class Signature {
 
     /**
      * Sets the value of the valid property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setValid(Boolean value) {
         this.valid = value;
@@ -562,9 +562,9 @@ public class Signature {
 
     /**
      * Gets the value of the validSign property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isValidSign() {
         return validSign;
@@ -572,10 +572,10 @@ public class Signature {
 
     /**
      * Sets the value of the validSign property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setValidSign(Boolean value) {
         this.validSign = value;
@@ -583,9 +583,9 @@ public class Signature {
 
     /**
      * Gets the value of the validCert property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isValidCert() {
         return validCert;
@@ -593,10 +593,10 @@ public class Signature {
 
     /**
      * Sets the value of the validCert property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setValidCert(Boolean value) {
         this.validCert = value;
@@ -604,9 +604,9 @@ public class Signature {
 
     /**
      * Gets the value of the validTrust property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isValidTrust() {
         return validTrust;
@@ -614,10 +614,10 @@ public class Signature {
 
     /**
      * Sets the value of the validTrust property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setValidTrust(Boolean value) {
         this.validTrust = value;
@@ -625,9 +625,9 @@ public class Signature {
 
     /**
      * Gets the value of the validTimestamp property.
-     * 
+     *
      * @return possible object is {@link Boolean }
-     * 
+     *
      */
     public Boolean isValidTimestamp() {
         return validTimestamp;
@@ -635,10 +635,10 @@ public class Signature {
 
     /**
      * Sets the value of the validTimestamp property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Boolean }
-     * 
+     *
      */
     public void setValidTimestamp(Boolean value) {
         this.validTimestamp = value;
@@ -646,9 +646,9 @@ public class Signature {
 
     /**
      * Gets the value of the signErrCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getSignErrCode() {
         return signErrCode;
@@ -656,10 +656,10 @@ public class Signature {
 
     /**
      * Sets the value of the signErrCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setSignErrCode(String value) {
         this.signErrCode = value;
@@ -667,9 +667,9 @@ public class Signature {
 
     /**
      * Gets the value of the certErrCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCertErrCode() {
         return certErrCode;
@@ -677,10 +677,10 @@ public class Signature {
 
     /**
      * Sets the value of the certErrCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCertErrCode(String value) {
         this.certErrCode = value;
@@ -688,9 +688,9 @@ public class Signature {
 
     /**
      * Gets the value of the trustErrCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getTrustErrCode() {
         return trustErrCode;
@@ -698,10 +698,10 @@ public class Signature {
 
     /**
      * Sets the value of the trustErrCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setTrustErrCode(String value) {
         this.trustErrCode = value;
@@ -709,9 +709,9 @@ public class Signature {
 
     /**
      * Gets the value of the p7MLevel property.
-     * 
+     *
      * @return possible object is {@link Integer }
-     * 
+     *
      */
     public Integer getP7MLevel() {
         return p7MLevel;
@@ -719,10 +719,10 @@ public class Signature {
 
     /**
      * Sets the value of the p7MLevel property.
-     * 
+     *
      * @param value
      *            allowed object is {@link Integer }
-     * 
+     *
      */
     public void setP7MLevel(Integer value) {
         this.p7MLevel = value;
@@ -730,9 +730,9 @@ public class Signature {
 
     /**
      * Gets the value of the p7MPath property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getP7MPath() {
         return p7MPath;
@@ -740,10 +740,10 @@ public class Signature {
 
     /**
      * Sets the value of the p7MPath property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setP7MPath(String value) {
         this.p7MPath = value;
@@ -751,7 +751,7 @@ public class Signature {
 
     /**
      * Gets the value of the x509 property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getX509() {
@@ -760,7 +760,7 @@ public class Signature {
 
     /**
      * Sets the value of the x509 property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */

@@ -37,9 +37,9 @@ public interface ClientHSM {
      *
      * @param user
      *            utente HSM
-     * 
+     *
      * @return sessione con servizio HSM
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException
@@ -57,7 +57,7 @@ public interface ClientHSM {
      *
      * @param session
      *            sesione operativa HSM
-     * 
+     *
      * @throws it.eng.hsm.HSMException
      *             eccezione generica
      */
@@ -74,9 +74,9 @@ public interface ClientHSM {
      *            the user who requires the signature
      * @param fileToSign
      *            file to sign
-     * 
+     *
      * @return array di byte del documento P7M firmato
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException
@@ -91,14 +91,14 @@ public interface ClientHSM {
 
     /**
      * Realizes the CAdES signature of the <code>fileToSign</code> with the certificate of the <code>user</code>.
-     * 
+     *
      * @param session
      *            the signature session has to be previously opened
      * @param fileToSign
      *            file to sign
-     * 
+     *
      * @return array di byte del documento P7M firmato
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException
@@ -117,16 +117,16 @@ public interface ClientHSM {
 
     /**
      * Realizes the XAdES-T signature of the <code>fileToSign</code> with the certificate of the <code>user</code>.
-     * 
+     *
      * @param user
      *            the user who requires the signature
      * @param fileToSign
      *            file to sign
      * @param marcaTemporale
      *            marca temporale si/no
-     * 
+     *
      * @return array di byte del documento XADES firmato
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException
@@ -141,16 +141,16 @@ public interface ClientHSM {
 
     /**
      * Realizes the XAdES signature of the <code>fileToSign</code> with the certificate of the <code>user</code>.
-     * 
+     *
      * @param user
      *            the user who requires the signature
      * @param fileToSign
      *            file to sign
      * @param conf
      *            configurazione XADES
-     * 
+     *
      * @return array di byte del documento XADES firmato
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException
@@ -165,16 +165,16 @@ public interface ClientHSM {
 
     /**
      * Realizes the XAdES-T signature of the <code>fileToSign</code> with the certificate of the <code>user</code>.
-     * 
+     *
      * @param session
      *            the signature session has to be previously opened
      * @param fileToSign
      *            file to sign
      * @param marcaTemporale
      *            marca temporale si/no
-     * 
+     *
      * @return array di byte del documento XADES firmato
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException
@@ -189,16 +189,16 @@ public interface ClientHSM {
 
     /**
      * Realizes the XAdES signature of the <code>fileToSign</code> with the certificate of the <code>user</code>.
-     * 
+     *
      * @param session
      *            the signature session has to be previously opened
      * @param fileToSign
      *            file to sign
      * @param conf
      *            configurazione XADES
-     * 
+     *
      * @return array di byte del documento XADES firmato
-     * 
+     *
      * @throws AuthenticationException
      *             if the user credentials aren't correct
      * @throws OTPException

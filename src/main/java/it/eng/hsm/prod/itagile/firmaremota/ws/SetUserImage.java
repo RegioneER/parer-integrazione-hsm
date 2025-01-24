@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -42,8 +42,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "cred", "userImage" })
@@ -57,9 +57,9 @@ public class SetUserImage {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -67,10 +67,10 @@ public class SetUserImage {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -78,9 +78,9 @@ public class SetUserImage {
 
     /**
      * Gets the value of the userImage property.
-     * 
+     *
      * @return possible object is {@link SignatureImage }
-     * 
+     *
      */
     public SignatureImage getUserImage() {
         return userImage;
@@ -88,10 +88,10 @@ public class SetUserImage {
 
     /**
      * Sets the value of the userImage property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureImage }
-     * 
+     *
      */
     public void setUserImage(SignatureImage value) {
         this.userImage = value;

@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for RemoteSignatureXadesParams complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="RemoteSignatureXadesParams">
  *   &lt;complexContent>
@@ -45,8 +45,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "RemoteSignatureXadesParams", propOrder = { "detachedReferenceURI", "elemenXPath", "form",
@@ -68,9 +68,9 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Gets the value of the detachedReferenceURI property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDetachedReferenceURI() {
         return detachedReferenceURI;
@@ -78,10 +78,10 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Sets the value of the detachedReferenceURI property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDetachedReferenceURI(String value) {
         this.detachedReferenceURI = value;
@@ -89,9 +89,9 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Gets the value of the elemenXPath property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getElemenXPath() {
         return elemenXPath;
@@ -99,10 +99,10 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Sets the value of the elemenXPath property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setElemenXPath(String value) {
         this.elemenXPath = value;
@@ -110,9 +110,9 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Gets the value of the form property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getForm() {
         return form;
@@ -120,10 +120,10 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Sets the value of the form property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setForm(String value) {
         this.form = value;
@@ -131,9 +131,9 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Gets the value of the signatureId property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getSignatureId() {
         return signatureId;
@@ -141,10 +141,10 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Sets the value of the signatureId property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setSignatureId(String value) {
         this.signatureId = value;
@@ -152,9 +152,9 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Gets the value of the type property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getType() {
         return type;
@@ -162,10 +162,10 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Sets the value of the type property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setType(String value) {
         this.type = value;
@@ -173,9 +173,9 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Gets the value of the validationData property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getValidationData() {
         return validationData;
@@ -183,10 +183,10 @@ public class RemoteSignatureXadesParams {
 
     /**
      * Sets the value of the validationData property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setValidationData(String value) {
         this.validationData = value;

@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "documentXadesInfoReturn" })
@@ -54,9 +54,9 @@ public class DocumentXadesInfoResponse {
 
     /**
      * Gets the value of the documentXadesInfoReturn property.
-     * 
+     *
      * @return possible object is {@link SignatureDocumentInfo }
-     * 
+     *
      */
     public SignatureDocumentInfo getDocumentXadesInfoReturn() {
         return documentXadesInfoReturn;
@@ -64,10 +64,10 @@ public class DocumentXadesInfoResponse {
 
     /**
      * Sets the value of the documentXadesInfoReturn property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureDocumentInfo }
-     * 
+     *
      */
     public void setDocumentXadesInfoReturn(SignatureDocumentInfo value) {
         this.documentXadesInfoReturn = value;

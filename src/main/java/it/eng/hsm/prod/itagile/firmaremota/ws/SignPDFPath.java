@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -59,8 +59,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "userid", "password", "pinToSign", "domain", "dirSource", "dirDest", "fieldName",
@@ -103,9 +103,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the userid property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUserid() {
         return userid;
@@ -113,10 +113,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the userid property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUserid(String value) {
         this.userid = value;
@@ -124,9 +124,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the password property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getPassword() {
         return password;
@@ -134,10 +134,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the password property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setPassword(String value) {
         this.password = value;
@@ -145,9 +145,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the pinToSign property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getPinToSign() {
         return pinToSign;
@@ -155,10 +155,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the pinToSign property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setPinToSign(String value) {
         this.pinToSign = value;
@@ -166,9 +166,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the domain property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDomain() {
         return domain;
@@ -176,10 +176,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the domain property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDomain(String value) {
         this.domain = value;
@@ -187,9 +187,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the dirSource property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDirSource() {
         return dirSource;
@@ -197,10 +197,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the dirSource property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDirSource(String value) {
         this.dirSource = value;
@@ -208,9 +208,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the dirDest property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDirDest() {
         return dirDest;
@@ -218,10 +218,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the dirDest property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDirDest(String value) {
         this.dirDest = value;
@@ -229,9 +229,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the fieldName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getFieldName() {
         return fieldName;
@@ -239,10 +239,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the fieldName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setFieldName(String value) {
         this.fieldName = value;
@@ -250,7 +250,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the page property.
-     * 
+     *
      */
     public int getPage() {
         return page;
@@ -258,7 +258,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the page property.
-     * 
+     *
      */
     public void setPage(int value) {
         this.page = value;
@@ -266,7 +266,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the x property.
-     * 
+     *
      */
     public int getX() {
         return x;
@@ -274,7 +274,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the x property.
-     * 
+     *
      */
     public void setX(int value) {
         this.x = value;
@@ -282,7 +282,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the y property.
-     * 
+     *
      */
     public int getY() {
         return y;
@@ -290,7 +290,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the y property.
-     * 
+     *
      */
     public void setY(int value) {
         this.y = value;
@@ -298,7 +298,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the width property.
-     * 
+     *
      */
     public int getWidth() {
         return width;
@@ -306,7 +306,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the width property.
-     * 
+     *
      */
     public void setWidth(int value) {
         this.width = value;
@@ -314,7 +314,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the height property.
-     * 
+     *
      */
     public int getHeight() {
         return height;
@@ -322,7 +322,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the height property.
-     * 
+     *
      */
     public void setHeight(int value) {
         this.height = value;
@@ -330,9 +330,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the userName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUserName() {
         return userName;
@@ -340,10 +340,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the userName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUserName(String value) {
         this.userName = value;
@@ -351,9 +351,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the reason property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getReason() {
         return reason;
@@ -361,10 +361,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the reason property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setReason(String value) {
         this.reason = value;
@@ -372,9 +372,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the location property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getLocation() {
         return location;
@@ -382,10 +382,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the location property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setLocation(String value) {
         this.location = value;
@@ -393,9 +393,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the dateFormat property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDateFormat() {
         return dateFormat;
@@ -403,10 +403,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the dateFormat property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDateFormat(String value) {
         this.dateFormat = value;
@@ -414,7 +414,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the graphic property.
-     * 
+     *
      */
     public boolean isGraphic() {
         return graphic;
@@ -422,7 +422,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the graphic property.
-     * 
+     *
      */
     public void setGraphic(boolean value) {
         this.graphic = value;
@@ -430,9 +430,9 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the text property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getText() {
         return text;
@@ -440,10 +440,10 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the text property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setText(String value) {
         this.text = value;
@@ -451,7 +451,7 @@ public class SignPDFPath {
 
     /**
      * Gets the value of the fontSize property.
-     * 
+     *
      */
     public int getFontSize() {
         return fontSize;
@@ -459,7 +459,7 @@ public class SignPDFPath {
 
     /**
      * Sets the value of the fontSize property.
-     * 
+     *
      */
     public void setFontSize(int value) {
         this.fontSize = value;

@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -44,8 +44,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "cred", "content", "contentInAttachment", "digestAlg" })
@@ -62,9 +62,9 @@ public class TimestampAttached {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -72,10 +72,10 @@ public class TimestampAttached {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -83,7 +83,7 @@ public class TimestampAttached {
 
     /**
      * Gets the value of the content property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getContent() {
@@ -92,7 +92,7 @@ public class TimestampAttached {
 
     /**
      * Sets the value of the content property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -102,7 +102,7 @@ public class TimestampAttached {
 
     /**
      * Gets the value of the contentInAttachment property.
-     * 
+     *
      */
     public boolean isContentInAttachment() {
         return contentInAttachment;
@@ -110,7 +110,7 @@ public class TimestampAttached {
 
     /**
      * Sets the value of the contentInAttachment property.
-     * 
+     *
      */
     public void setContentInAttachment(boolean value) {
         this.contentInAttachment = value;
@@ -118,9 +118,9 @@ public class TimestampAttached {
 
     /**
      * Gets the value of the digestAlg property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestAlg() {
         return digestAlg;
@@ -128,10 +128,10 @@ public class TimestampAttached {
 
     /**
      * Sets the value of the digestAlg property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestAlg(String value) {
         this.digestAlg = value;

@@ -32,7 +32,7 @@ public class HSMException extends Exception {
 
     /*
      * This constructor will be used when the HSM doesn't return the error code which caused the error.
-     * 
+     *
      */
     public HSMException() {
         super();
@@ -40,9 +40,9 @@ public class HSMException extends Exception {
 
     /*
      * This constructor requires the error code and the exception thrown.
-     * 
+     *
      * @param errorCode
-     * 
+     *
      * @param cause
      */
     public HSMException(String errorCode, Throwable cause) {
@@ -53,7 +53,7 @@ public class HSMException extends Exception {
 
     /*
      * This constructor requires the error code.
-     * 
+     *
      * @param errorCode
      */
     public HSMException(String errorCode) {
@@ -62,7 +62,7 @@ public class HSMException extends Exception {
 
     /*
      * This constructor requires the exception thrown.
-     * 
+     *
      * @param cause
      */
     public HSMException(Throwable cause) {
@@ -71,7 +71,7 @@ public class HSMException extends Exception {
 
     /*
      * Returns the code of the thrown error.
-     * 
+     *
      * @return the description of the thrown error
      */
     public String getErrorCode() {
@@ -80,7 +80,7 @@ public class HSMException extends Exception {
 
     /*
      * Returns the description of the thrown error.
-     * 
+     *
      * @return the description of the thrown error
      */
     public String getErrorDescription() {
