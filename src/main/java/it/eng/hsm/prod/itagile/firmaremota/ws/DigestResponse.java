@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "digestReturn" })
@@ -54,7 +54,7 @@ public class DigestResponse {
 
     /**
      * Gets the value of the digestReturn property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getDigestReturn() {
@@ -63,7 +63,7 @@ public class DigestResponse {
 
     /**
      * Sets the value of the digestReturn property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */

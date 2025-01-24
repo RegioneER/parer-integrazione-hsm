@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -43,8 +43,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "cred", "digest", "digestAlg" })
@@ -60,9 +60,9 @@ public class TimestampToken {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -70,10 +70,10 @@ public class TimestampToken {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -81,7 +81,7 @@ public class TimestampToken {
 
     /**
      * Gets the value of the digest property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getDigest() {
@@ -90,7 +90,7 @@ public class TimestampToken {
 
     /**
      * Sets the value of the digest property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -100,9 +100,9 @@ public class TimestampToken {
 
     /**
      * Gets the value of the digestAlg property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestAlg() {
         return digestAlg;
@@ -110,10 +110,10 @@ public class TimestampToken {
 
     /**
      * Sets the value of the digestAlg property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestAlg(String value) {
         this.digestAlg = value;

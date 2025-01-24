@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -58,8 +58,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "cred", "content", "contentInAttachments", "digestType", "x509Certificate", "flags",
@@ -100,9 +100,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -110,10 +110,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -121,7 +121,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the content property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getContent() {
@@ -130,7 +130,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the content property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -140,7 +140,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the contentInAttachments property.
-     * 
+     *
      */
     public boolean isContentInAttachments() {
         return contentInAttachments;
@@ -148,7 +148,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the contentInAttachments property.
-     * 
+     *
      */
     public void setContentInAttachments(boolean value) {
         this.contentInAttachments = value;
@@ -156,9 +156,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the digestType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestType() {
         return digestType;
@@ -166,10 +166,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the digestType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestType(String value) {
         this.digestType = value;
@@ -177,7 +177,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the x509Certificate property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getX509Certificate() {
@@ -186,7 +186,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the x509Certificate property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -196,9 +196,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the flags property.
-     * 
+     *
      * @return possible object is {@link SignatureFlags }
-     * 
+     *
      */
     public SignatureFlags getFlags() {
         return flags;
@@ -206,10 +206,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the flags property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureFlags }
-     * 
+     *
      */
     public void setFlags(SignatureFlags value) {
         this.flags = value;
@@ -217,9 +217,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the fieldName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getFieldName() {
         return fieldName;
@@ -227,10 +227,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the fieldName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setFieldName(String value) {
         this.fieldName = value;
@@ -238,7 +238,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the page property.
-     * 
+     *
      */
     public int getPage() {
         return page;
@@ -246,7 +246,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the page property.
-     * 
+     *
      */
     public void setPage(int value) {
         this.page = value;
@@ -254,7 +254,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the x property.
-     * 
+     *
      */
     public int getX() {
         return x;
@@ -262,7 +262,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the x property.
-     * 
+     *
      */
     public void setX(int value) {
         this.x = value;
@@ -270,7 +270,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the y property.
-     * 
+     *
      */
     public int getY() {
         return y;
@@ -278,7 +278,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the y property.
-     * 
+     *
      */
     public void setY(int value) {
         this.y = value;
@@ -286,7 +286,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the width property.
-     * 
+     *
      */
     public int getWidth() {
         return width;
@@ -294,7 +294,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the width property.
-     * 
+     *
      */
     public void setWidth(int value) {
         this.width = value;
@@ -302,7 +302,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the height property.
-     * 
+     *
      */
     public int getHeight() {
         return height;
@@ -310,7 +310,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the height property.
-     * 
+     *
      */
     public void setHeight(int value) {
         this.height = value;
@@ -318,9 +318,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the userName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUserName() {
         return userName;
@@ -328,10 +328,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the userName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUserName(String value) {
         this.userName = value;
@@ -339,9 +339,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the reason property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getReason() {
         return reason;
@@ -349,10 +349,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the reason property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setReason(String value) {
         this.reason = value;
@@ -360,9 +360,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the location property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getLocation() {
         return location;
@@ -370,10 +370,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the location property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setLocation(String value) {
         this.location = value;
@@ -381,9 +381,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the dateFormat property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDateFormat() {
         return dateFormat;
@@ -391,10 +391,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the dateFormat property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDateFormat(String value) {
         this.dateFormat = value;
@@ -402,9 +402,9 @@ public class SignPDF {
 
     /**
      * Gets the value of the text property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getText() {
         return text;
@@ -412,10 +412,10 @@ public class SignPDF {
 
     /**
      * Sets the value of the text property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setText(String value) {
         this.text = value;
@@ -423,7 +423,7 @@ public class SignPDF {
 
     /**
      * Gets the value of the fontSize property.
-     * 
+     *
      */
     public int getFontSize() {
         return fontSize;
@@ -431,7 +431,7 @@ public class SignPDF {
 
     /**
      * Sets the value of the fontSize property.
-     * 
+     *
      */
     public void setFontSize(int value) {
         this.fontSize = value;

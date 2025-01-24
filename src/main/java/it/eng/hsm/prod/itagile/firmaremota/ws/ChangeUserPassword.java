@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -43,8 +43,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "cred", "userid", "newPassword" })
@@ -60,9 +60,9 @@ public class ChangeUserPassword {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -70,10 +70,10 @@ public class ChangeUserPassword {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -81,9 +81,9 @@ public class ChangeUserPassword {
 
     /**
      * Gets the value of the userid property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUserid() {
         return userid;
@@ -91,10 +91,10 @@ public class ChangeUserPassword {
 
     /**
      * Sets the value of the userid property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUserid(String value) {
         this.userid = value;
@@ -102,9 +102,9 @@ public class ChangeUserPassword {
 
     /**
      * Gets the value of the newPassword property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getNewPassword() {
         return newPassword;
@@ -112,10 +112,10 @@ public class ChangeUserPassword {
 
     /**
      * Sets the value of the newPassword property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setNewPassword(String value) {
         this.newPassword = value;

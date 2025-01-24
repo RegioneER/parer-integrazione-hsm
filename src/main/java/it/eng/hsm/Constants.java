@@ -19,7 +19,7 @@ package it.eng.hsm;
 
 /**
  * @author Moretti_Lu
- * 
+ *
  *         Contiene le costanti del HSM.
  *
  */

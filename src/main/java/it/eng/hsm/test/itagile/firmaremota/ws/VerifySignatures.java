@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -43,8 +43,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "signedDocument", "docsInAttachment", "mimeType" })
@@ -59,7 +59,7 @@ public class VerifySignatures {
 
     /**
      * Gets the value of the signedDocument property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getSignedDocument() {
@@ -68,7 +68,7 @@ public class VerifySignatures {
 
     /**
      * Sets the value of the signedDocument property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -78,7 +78,7 @@ public class VerifySignatures {
 
     /**
      * Gets the value of the docsInAttachment property.
-     * 
+     *
      */
     public boolean isDocsInAttachment() {
         return docsInAttachment;
@@ -86,7 +86,7 @@ public class VerifySignatures {
 
     /**
      * Sets the value of the docsInAttachment property.
-     * 
+     *
      */
     public void setDocsInAttachment(boolean value) {
         this.docsInAttachment = value;
@@ -94,9 +94,9 @@ public class VerifySignatures {
 
     /**
      * Gets the value of the mimeType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getMimeType() {
         return mimeType;
@@ -104,10 +104,10 @@ public class VerifySignatures {
 
     /**
      * Sets the value of the mimeType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setMimeType(String value) {
         this.mimeType = value;

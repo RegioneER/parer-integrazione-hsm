@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for SignatureImage complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="SignatureImage">
  *   &lt;complexContent>
@@ -42,8 +42,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SignatureImage", propOrder = { "id", "image", "type" })
@@ -57,9 +57,9 @@ public class SignatureImage {
 
     /**
      * Gets the value of the id property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getId() {
         return id;
@@ -67,10 +67,10 @@ public class SignatureImage {
 
     /**
      * Sets the value of the id property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setId(String value) {
         this.id = value;
@@ -78,7 +78,7 @@ public class SignatureImage {
 
     /**
      * Gets the value of the image property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getImage() {
@@ -87,7 +87,7 @@ public class SignatureImage {
 
     /**
      * Sets the value of the image property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -97,7 +97,7 @@ public class SignatureImage {
 
     /**
      * Gets the value of the type property.
-     * 
+     *
      */
     public int getType() {
         return type;
@@ -105,7 +105,7 @@ public class SignatureImage {
 
     /**
      * Sets the value of the type property.
-     * 
+     *
      */
     public void setType(int value) {
         this.type = value;

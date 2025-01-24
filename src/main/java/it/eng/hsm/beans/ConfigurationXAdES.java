@@ -32,7 +32,7 @@ public class ConfigurationXAdES {
 
     /**
      * This constructor sets the values to their default value.
-     * 
+     *
      */
     public ConfigurationXAdES() {
         this.profile = XAdES.PROFILES.BES;

@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -45,8 +45,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "signatureCred", "content", "digestType", "x509Certificate", "flags" })
@@ -66,9 +66,9 @@ public class SignCAdES {
 
     /**
      * Gets the value of the signatureCred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getSignatureCred() {
         return signatureCred;
@@ -76,10 +76,10 @@ public class SignCAdES {
 
     /**
      * Sets the value of the signatureCred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setSignatureCred(RemoteSignatureCredentials value) {
         this.signatureCred = value;
@@ -87,7 +87,7 @@ public class SignCAdES {
 
     /**
      * Gets the value of the content property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getContent() {
@@ -96,7 +96,7 @@ public class SignCAdES {
 
     /**
      * Sets the value of the content property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -106,9 +106,9 @@ public class SignCAdES {
 
     /**
      * Gets the value of the digestType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestType() {
         return digestType;
@@ -116,10 +116,10 @@ public class SignCAdES {
 
     /**
      * Sets the value of the digestType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestType(String value) {
         this.digestType = value;
@@ -127,7 +127,7 @@ public class SignCAdES {
 
     /**
      * Gets the value of the x509Certificate property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getX509Certificate() {
@@ -136,7 +136,7 @@ public class SignCAdES {
 
     /**
      * Sets the value of the x509Certificate property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -146,9 +146,9 @@ public class SignCAdES {
 
     /**
      * Gets the value of the flags property.
-     * 
+     *
      * @return possible object is {@link SignatureFlags }
-     * 
+     *
      */
     public SignatureFlags getFlags() {
         return flags;
@@ -156,10 +156,10 @@ public class SignCAdES {
 
     /**
      * Sets the value of the flags property.
-     * 
+     *
      * @param value
      *            allowed object is {@link SignatureFlags }
-     * 
+     *
      */
     public void setFlags(SignatureFlags value) {
         this.flags = value;

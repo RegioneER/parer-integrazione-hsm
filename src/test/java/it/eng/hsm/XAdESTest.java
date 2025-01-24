@@ -92,7 +92,7 @@ public class XAdESTest {
 
     /**
      * Signs a test file to XAdES signature
-     * 
+     *
      * @param args
      */
     public static void main(String[] args) {

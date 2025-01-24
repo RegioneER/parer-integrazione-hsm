@@ -33,7 +33,7 @@ public class CertificateEvaluation {
     private String untrustDescription;
 
     /**
-     * 
+     *
      * @param certificate
      *            certificato di firma
      * @param verifyDate

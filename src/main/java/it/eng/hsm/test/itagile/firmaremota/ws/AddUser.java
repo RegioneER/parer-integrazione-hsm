@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -47,8 +47,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "cred", "userid", "password", "commonName", "email", "hsmManager", "userManager" })
@@ -70,9 +70,9 @@ public class AddUser {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -80,10 +80,10 @@ public class AddUser {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -91,9 +91,9 @@ public class AddUser {
 
     /**
      * Gets the value of the userid property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUserid() {
         return userid;
@@ -101,10 +101,10 @@ public class AddUser {
 
     /**
      * Sets the value of the userid property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUserid(String value) {
         this.userid = value;
@@ -112,9 +112,9 @@ public class AddUser {
 
     /**
      * Gets the value of the password property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getPassword() {
         return password;
@@ -122,10 +122,10 @@ public class AddUser {
 
     /**
      * Sets the value of the password property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setPassword(String value) {
         this.password = value;
@@ -133,9 +133,9 @@ public class AddUser {
 
     /**
      * Gets the value of the commonName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCommonName() {
         return commonName;
@@ -143,10 +143,10 @@ public class AddUser {
 
     /**
      * Sets the value of the commonName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCommonName(String value) {
         this.commonName = value;
@@ -154,9 +154,9 @@ public class AddUser {
 
     /**
      * Gets the value of the email property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getEmail() {
         return email;
@@ -164,10 +164,10 @@ public class AddUser {
 
     /**
      * Sets the value of the email property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setEmail(String value) {
         this.email = value;
@@ -175,7 +175,7 @@ public class AddUser {
 
     /**
      * Gets the value of the hsmManager property.
-     * 
+     *
      */
     public boolean isHsmManager() {
         return hsmManager;
@@ -183,7 +183,7 @@ public class AddUser {
 
     /**
      * Sets the value of the hsmManager property.
-     * 
+     *
      */
     public void setHsmManager(boolean value) {
         this.hsmManager = value;
@@ -191,7 +191,7 @@ public class AddUser {
 
     /**
      * Gets the value of the userManager property.
-     * 
+     *
      */
     public boolean isUserManager() {
         return userManager;
@@ -199,7 +199,7 @@ public class AddUser {
 
     /**
      * Sets the value of the userManager property.
-     * 
+     *
      */
     public void setUserManager(boolean value) {
         this.userManager = value;

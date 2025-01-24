@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for sign complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="sign">
  *   &lt;complexContent>
@@ -45,8 +45,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "sign", propOrder = { "cred", "content", "digestType", "certificate", "params" })
@@ -62,9 +62,9 @@ public class Sign {
 
     /**
      * Gets the value of the cred property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials getCred() {
         return cred;
@@ -72,10 +72,10 @@ public class Sign {
 
     /**
      * Sets the value of the cred property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public void setCred(RemoteSignatureCredentials value) {
         this.cred = value;
@@ -83,9 +83,9 @@ public class Sign {
 
     /**
      * Gets the value of the content property.
-     * 
+     *
      * @return possible object is {@link JAXBElement }{@code <}{@link byte[]}{@code >}
-     * 
+     *
      */
     public JAXBElement<byte[]> getContent() {
         return content;
@@ -93,10 +93,10 @@ public class Sign {
 
     /**
      * Sets the value of the content property.
-     * 
+     *
      * @param value
      *            allowed object is {@link JAXBElement }{@code <}{@link byte[]}{@code >}
-     * 
+     *
      */
     public void setContent(JAXBElement<byte[]> value) {
         this.content = value;
@@ -104,9 +104,9 @@ public class Sign {
 
     /**
      * Gets the value of the digestType property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestType() {
         return digestType;
@@ -114,10 +114,10 @@ public class Sign {
 
     /**
      * Sets the value of the digestType property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestType(String value) {
         this.digestType = value;
@@ -125,9 +125,9 @@ public class Sign {
 
     /**
      * Gets the value of the certificate property.
-     * 
+     *
      * @return possible object is {@link JAXBElement }{@code <}{@link byte[]}{@code >}
-     * 
+     *
      */
     public JAXBElement<byte[]> getCertificate() {
         return certificate;
@@ -135,10 +135,10 @@ public class Sign {
 
     /**
      * Sets the value of the certificate property.
-     * 
+     *
      * @param value
      *            allowed object is {@link JAXBElement }{@code <}{@link byte[]}{@code >}
-     * 
+     *
      */
     public void setCertificate(JAXBElement<byte[]> value) {
         this.certificate = value;
@@ -146,9 +146,9 @@ public class Sign {
 
     /**
      * Gets the value of the params property.
-     * 
+     *
      * @return possible object is {@link RemoteSignatureXadesParams }
-     * 
+     *
      */
     public RemoteSignatureXadesParams getParams() {
         return params;
@@ -156,10 +156,10 @@ public class Sign {
 
     /**
      * Sets the value of the params property.
-     * 
+     *
      * @param value
      *            allowed object is {@link RemoteSignatureXadesParams }
-     * 
+     *
      */
     public void setParams(RemoteSignatureXadesParams value) {
         this.params = value;

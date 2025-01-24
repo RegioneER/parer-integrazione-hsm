@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for CertificateStatus complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="CertificateStatus">
  *   &lt;complexContent>
@@ -47,8 +47,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CertificateStatus", propOrder = { "certificate", "checkTime", "invalidCertificateMessage",
@@ -72,7 +72,7 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the certificate property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getCertificate() {
@@ -81,7 +81,7 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the certificate property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -91,7 +91,7 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the checkTime property.
-     * 
+     *
      */
     public long getCheckTime() {
         return checkTime;
@@ -99,7 +99,7 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the checkTime property.
-     * 
+     *
      */
     public void setCheckTime(long value) {
         this.checkTime = value;
@@ -107,9 +107,9 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the invalidCertificateMessage property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getInvalidCertificateMessage() {
         return invalidCertificateMessage;
@@ -117,10 +117,10 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the invalidCertificateMessage property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setInvalidCertificateMessage(String value) {
         this.invalidCertificateMessage = value;
@@ -128,9 +128,9 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the invalidCertificateCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getInvalidCertificateCode() {
         return invalidCertificateCode;
@@ -138,10 +138,10 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the invalidCertificateCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setInvalidCertificateCode(String value) {
         this.invalidCertificateCode = value;
@@ -149,7 +149,7 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the trustedIdentity property.
-     * 
+     *
      */
     public boolean isTrustedIdentity() {
         return trustedIdentity;
@@ -157,7 +157,7 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the trustedIdentity property.
-     * 
+     *
      */
     public void setTrustedIdentity(boolean value) {
         this.trustedIdentity = value;
@@ -165,9 +165,9 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the untrustedIdentityMessage property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUntrustedIdentityMessage() {
         return untrustedIdentityMessage;
@@ -175,10 +175,10 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the untrustedIdentityMessage property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUntrustedIdentityMessage(String value) {
         this.untrustedIdentityMessage = value;
@@ -186,9 +186,9 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the untrustedIdentityCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUntrustedIdentityCode() {
         return untrustedIdentityCode;
@@ -196,10 +196,10 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the untrustedIdentityCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUntrustedIdentityCode(String value) {
         this.untrustedIdentityCode = value;
@@ -207,7 +207,7 @@ public class CertificateStatus {
 
     /**
      * Gets the value of the validCertificate property.
-     * 
+     *
      */
     public boolean isValidCertificate() {
         return validCertificate;
@@ -215,7 +215,7 @@ public class CertificateStatus {
 
     /**
      * Sets the value of the validCertificate property.
-     * 
+     *
      */
     public void setValidCertificate(boolean value) {
         this.validCertificate = value;

@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "verifyCertificateAtTimeReturn" })
@@ -54,9 +54,9 @@ public class VerifyCertificateAtTimeResponse {
 
     /**
      * Gets the value of the verifyCertificateAtTimeReturn property.
-     * 
+     *
      * @return possible object is {@link CertificateStatus }
-     * 
+     *
      */
     public CertificateStatus getVerifyCertificateAtTimeReturn() {
         return verifyCertificateAtTimeReturn;
@@ -64,10 +64,10 @@ public class VerifyCertificateAtTimeResponse {
 
     /**
      * Sets the value of the verifyCertificateAtTimeReturn property.
-     * 
+     *
      * @param value
      *            allowed object is {@link CertificateStatus }
-     * 
+     *
      */
     public void setVerifyCertificateAtTimeReturn(CertificateStatus value) {
         this.verifyCertificateAtTimeReturn = value;

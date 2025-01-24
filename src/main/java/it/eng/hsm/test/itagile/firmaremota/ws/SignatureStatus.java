@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for SignatureStatus complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="SignatureStatus">
  *   &lt;complexContent>
@@ -55,8 +55,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SignatureStatus", propOrder = { "certStatus", "counterSignatures", "digestAlgorithm",
@@ -96,9 +96,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the certStatus property.
-     * 
+     *
      * @return possible object is {@link CertificateStatus }
-     * 
+     *
      */
     public CertificateStatus getCertStatus() {
         return certStatus;
@@ -106,10 +106,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the certStatus property.
-     * 
+     *
      * @param value
      *            allowed object is {@link CertificateStatus }
-     * 
+     *
      */
     public void setCertStatus(CertificateStatus value) {
         this.certStatus = value;
@@ -117,9 +117,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the counterSignatures property.
-     * 
+     *
      * @return possible object is {@link ArrayOfSignatureStatus }
-     * 
+     *
      */
     public ArrayOfSignatureStatus getCounterSignatures() {
         return counterSignatures;
@@ -127,10 +127,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the counterSignatures property.
-     * 
+     *
      * @param value
      *            allowed object is {@link ArrayOfSignatureStatus }
-     * 
+     *
      */
     public void setCounterSignatures(ArrayOfSignatureStatus value) {
         this.counterSignatures = value;
@@ -138,9 +138,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the digestAlgorithm property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getDigestAlgorithm() {
         return digestAlgorithm;
@@ -148,10 +148,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the digestAlgorithm property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setDigestAlgorithm(String value) {
         this.digestAlgorithm = value;
@@ -159,9 +159,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the encryptionAlgorithm property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getEncryptionAlgorithm() {
         return encryptionAlgorithm;
@@ -169,10 +169,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the encryptionAlgorithm property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setEncryptionAlgorithm(String value) {
         this.encryptionAlgorithm = value;
@@ -180,9 +180,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the invalidSignatureMessage property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getInvalidSignatureMessage() {
         return invalidSignatureMessage;
@@ -190,10 +190,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the invalidSignatureMessage property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setInvalidSignatureMessage(String value) {
         this.invalidSignatureMessage = value;
@@ -201,9 +201,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the invalidTimestampMessage property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getInvalidTimestampMessage() {
         return invalidTimestampMessage;
@@ -211,10 +211,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the invalidTimestampMessage property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setInvalidTimestampMessage(String value) {
         this.invalidTimestampMessage = value;
@@ -222,9 +222,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the locality property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getLocality() {
         return locality;
@@ -232,10 +232,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the locality property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setLocality(String value) {
         this.locality = value;
@@ -243,9 +243,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the reason property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getReason() {
         return reason;
@@ -253,10 +253,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the reason property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setReason(String value) {
         this.reason = value;
@@ -264,9 +264,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the fieldName property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getFieldName() {
         return fieldName;
@@ -274,10 +274,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the fieldName property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setFieldName(String value) {
         this.fieldName = value;
@@ -285,7 +285,7 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the signatureTime property.
-     * 
+     *
      */
     public long getSignatureTime() {
         return signatureTime;
@@ -293,7 +293,7 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the signatureTime property.
-     * 
+     *
      */
     public void setSignatureTime(long value) {
         this.signatureTime = value;
@@ -301,7 +301,7 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the timestamp property.
-     * 
+     *
      */
     public boolean isTimestamp() {
         return timestamp;
@@ -309,7 +309,7 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the timestamp property.
-     * 
+     *
      */
     public void setTimestamp(boolean value) {
         this.timestamp = value;
@@ -317,7 +317,7 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the timestampCertificate property.
-     * 
+     *
      * @return possible object is byte[]
      */
     public byte[] getTimestampCertificate() {
@@ -326,7 +326,7 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the timestampCertificate property.
-     * 
+     *
      * @param value
      *            allowed object is byte[]
      */
@@ -336,7 +336,7 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the validSignature property.
-     * 
+     *
      */
     public boolean isValidSignature() {
         return validSignature;
@@ -344,7 +344,7 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the validSignature property.
-     * 
+     *
      */
     public void setValidSignature(boolean value) {
         this.validSignature = value;
@@ -352,7 +352,7 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the validTimestamp property.
-     * 
+     *
      */
     public boolean isValidTimestamp() {
         return validTimestamp;
@@ -360,7 +360,7 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the validTimestamp property.
-     * 
+     *
      */
     public void setValidTimestamp(boolean value) {
         this.validTimestamp = value;
@@ -368,9 +368,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the invalidSignatureCode property.
-     * 
+     *
      * @return possible object is {@link ArrayOfString }
-     * 
+     *
      */
     public ArrayOfString getInvalidSignatureCode() {
         return invalidSignatureCode;
@@ -378,10 +378,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the invalidSignatureCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link ArrayOfString }
-     * 
+     *
      */
     public void setInvalidSignatureCode(ArrayOfString value) {
         this.invalidSignatureCode = value;
@@ -389,9 +389,9 @@ public class SignatureStatus {
 
     /**
      * Gets the value of the invalidTimestampCode property.
-     * 
+     *
      * @return possible object is {@link ArrayOfString }
-     * 
+     *
      */
     public ArrayOfString getInvalidTimestampCode() {
         return invalidTimestampCode;
@@ -399,10 +399,10 @@ public class SignatureStatus {
 
     /**
      * Sets the value of the invalidTimestampCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link ArrayOfString }
-     * 
+     *
      */
     public void setInvalidTimestampCode(ArrayOfString value) {
         this.invalidTimestampCode = value;

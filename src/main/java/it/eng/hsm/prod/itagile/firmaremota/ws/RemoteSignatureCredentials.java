@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for RemoteSignatureCredentials complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="RemoteSignatureCredentials">
  *   &lt;complexContent>
@@ -44,8 +44,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "RemoteSignatureCredentials", propOrder = { "clientCertificateAuth", "extAuth", "password", "userid",
@@ -64,9 +64,9 @@ public class RemoteSignatureCredentials {
 
     /**
      * Gets the value of the clientCertificateAuth property.
-     * 
+     *
      * @return possible object is {@link ClientCertificateAuth }
-     * 
+     *
      */
     public ClientCertificateAuth getClientCertificateAuth() {
         return clientCertificateAuth;
@@ -74,10 +74,10 @@ public class RemoteSignatureCredentials {
 
     /**
      * Sets the value of the clientCertificateAuth property.
-     * 
+     *
      * @param value
      *            allowed object is {@link ClientCertificateAuth }
-     * 
+     *
      */
     public void setClientCertificateAuth(ClientCertificateAuth value) {
         this.clientCertificateAuth = value;
@@ -85,9 +85,9 @@ public class RemoteSignatureCredentials {
 
     /**
      * Gets the value of the extAuth property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getExtAuth() {
         return extAuth;
@@ -95,10 +95,10 @@ public class RemoteSignatureCredentials {
 
     /**
      * Sets the value of the extAuth property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setExtAuth(String value) {
         this.extAuth = value;
@@ -106,9 +106,9 @@ public class RemoteSignatureCredentials {
 
     /**
      * Gets the value of the password property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getPassword() {
         return password;
@@ -116,10 +116,10 @@ public class RemoteSignatureCredentials {
 
     /**
      * Sets the value of the password property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setPassword(String value) {
         this.password = value;
@@ -127,9 +127,9 @@ public class RemoteSignatureCredentials {
 
     /**
      * Gets the value of the userid property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getUserid() {
         return userid;
@@ -137,10 +137,10 @@ public class RemoteSignatureCredentials {
 
     /**
      * Sets the value of the userid property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setUserid(String value) {
         this.userid = value;
@@ -148,7 +148,7 @@ public class RemoteSignatureCredentials {
 
     /**
      * Gets the value of the oneshot property.
-     * 
+     *
      */
     public boolean isOneshot() {
         return oneshot;
@@ -156,7 +156,7 @@ public class RemoteSignatureCredentials {
 
     /**
      * Sets the value of the oneshot property.
-     * 
+     *
      */
     public void setOneshot(boolean value) {
         this.oneshot = value;

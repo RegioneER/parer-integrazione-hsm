@@ -30,7 +30,7 @@ import javax.xml.namespace.QName;
  * The Java representation of XML content can consist of schema derived interfaces and classes representing the binding
  * of schema type definitions, element declarations and model groups. Factory methods for each of these are provided in
  * this class.
- * 
+ *
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -46,14 +46,14 @@ public class ObjectFactory {
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package:
      * it.eng.hsm.prod.itagile.firmaremota.ws
-     * 
+     *
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link SignPDFResponse }
-     * 
+     *
      */
     public SignPDFResponse createSignPDFResponse() {
         return new SignPDFResponse();
@@ -61,7 +61,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DocumentP7MInfoResponse }
-     * 
+     *
      */
     public DocumentP7MInfoResponse createDocumentP7MInfoResponse() {
         return new DocumentP7MInfoResponse();
@@ -69,7 +69,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignatureDocumentInfo }
-     * 
+     *
      */
     public SignatureDocumentInfo createSignatureDocumentInfo() {
         return new SignatureDocumentInfo();
@@ -77,7 +77,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DigestResponse }
-     * 
+     *
      */
     public DigestResponse createDigestResponse() {
         return new DigestResponse();
@@ -85,7 +85,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AddUser }
-     * 
+     *
      */
     public AddUser createAddUser() {
         return new AddUser();
@@ -93,7 +93,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link RemoteSignatureCredentials }
-     * 
+     *
      */
     public RemoteSignatureCredentials createRemoteSignatureCredentials() {
         return new RemoteSignatureCredentials();
@@ -101,7 +101,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Sign }
-     * 
+     *
      */
     public Sign createSign() {
         return new Sign();
@@ -109,7 +109,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPKCS1Array }
-     * 
+     *
      */
     public SignPKCS1Array createSignPKCS1Array() {
         return new SignPKCS1Array();
@@ -117,7 +117,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignXAdES }
-     * 
+     *
      */
     public SignXAdES createSignXAdES() {
         return new SignXAdES();
@@ -125,7 +125,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link RemoteSignatureXadesParams }
-     * 
+     *
      */
     public RemoteSignatureXadesParams createRemoteSignatureXadesParams() {
         return new RemoteSignatureXadesParams();
@@ -133,7 +133,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPDF }
-     * 
+     *
      */
     public SignPDF createSignPDF() {
         return new SignPDF();
@@ -141,7 +141,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignatureFlags }
-     * 
+     *
      */
     public SignatureFlags createSignatureFlags() {
         return new SignatureFlags();
@@ -149,7 +149,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ChangeUserPasswordResponse }
-     * 
+     *
      */
     public ChangeUserPasswordResponse createChangeUserPasswordResponse() {
         return new ChangeUserPasswordResponse();
@@ -157,7 +157,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignP7M }
-     * 
+     *
      */
     public SignP7M createSignP7M() {
         return new SignP7M();
@@ -165,7 +165,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DocumentXadesInfoResponse }
-     * 
+     *
      */
     public DocumentXadesInfoResponse createDocumentXadesInfoResponse() {
         return new DocumentXadesInfoResponse();
@@ -173,7 +173,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IsModuleActive }
-     * 
+     *
      */
     public IsModuleActive createIsModuleActive() {
         return new IsModuleActive();
@@ -181,7 +181,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPDFPath }
-     * 
+     *
      */
     public SignPDFPath createSignPDFPath() {
         return new SignPDFPath();
@@ -189,7 +189,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPDFPathResponse }
-     * 
+     *
      */
     public SignPDFPathResponse createSignPDFPathResponse() {
         return new SignPDFPathResponse();
@@ -197,7 +197,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ChangeUserPassword }
-     * 
+     *
      */
     public ChangeUserPassword createChangeUserPassword() {
         return new ChangeUserPassword();
@@ -205,7 +205,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link FindUser }
-     * 
+     *
      */
     public FindUser createFindUser() {
         return new FindUser();
@@ -213,7 +213,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link VerifySignatures }
-     * 
+     *
      */
     public VerifySignatures createVerifySignatures() {
         return new VerifySignatures();
@@ -221,7 +221,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPKCS1Response }
-     * 
+     *
      */
     public SignPKCS1Response createSignPKCS1Response() {
         return new SignPKCS1Response();
@@ -229,7 +229,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link VerifyCertificate }
-     * 
+     *
      */
     public VerifyCertificate createVerifyCertificate() {
         return new VerifyCertificate();
@@ -237,7 +237,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampDetached }
-     * 
+     *
      */
     public TimestampDetached createTimestampDetached() {
         return new TimestampDetached();
@@ -245,7 +245,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link VerifyCertificateAtTimeResponse }
-     * 
+     *
      */
     public VerifyCertificateAtTimeResponse createVerifyCertificateAtTimeResponse() {
         return new VerifyCertificateAtTimeResponse();
@@ -253,7 +253,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CertificateStatus }
-     * 
+     *
      */
     public CertificateStatus createCertificateStatus() {
         return new CertificateStatus();
@@ -261,7 +261,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DocumentXadesInfo }
-     * 
+     *
      */
     public DocumentXadesInfo createDocumentXadesInfo() {
         return new DocumentXadesInfo();
@@ -269,7 +269,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CloseSignatureSessionResponse }
-     * 
+     *
      */
     public CloseSignatureSessionResponse createCloseSignatureSessionResponse() {
         return new CloseSignatureSessionResponse();
@@ -277,7 +277,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignP7MResponse }
-     * 
+     *
      */
     public SignP7MResponse createSignP7MResponse() {
         return new SignP7MResponse();
@@ -285,7 +285,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetUserImages }
-     * 
+     *
      */
     public GetUserImages createGetUserImages() {
         return new GetUserImages();
@@ -293,7 +293,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampAttached }
-     * 
+     *
      */
     public TimestampAttached createTimestampAttached() {
         return new TimestampAttached();
@@ -301,7 +301,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPKCS1 }
-     * 
+     *
      */
     public SignPKCS1 createSignPKCS1() {
         return new SignPKCS1();
@@ -309,7 +309,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetCertificatesResponse }
-     * 
+     *
      */
     public GetCertificatesResponse createGetCertificatesResponse() {
         return new GetCertificatesResponse();
@@ -317,7 +317,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link VerifySignaturesResponse }
-     * 
+     *
      */
     public VerifySignaturesResponse createVerifySignaturesResponse() {
         return new VerifySignaturesResponse();
@@ -325,7 +325,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignatureStatus }
-     * 
+     *
      */
     public SignatureStatus createSignatureStatus() {
         return new SignatureStatus();
@@ -333,7 +333,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IsModuleActiveResponse }
-     * 
+     *
      */
     public IsModuleActiveResponse createIsModuleActiveResponse() {
         return new IsModuleActiveResponse();
@@ -341,7 +341,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DeleteUser }
-     * 
+     *
      */
     public DeleteUser createDeleteUser() {
         return new DeleteUser();
@@ -349,7 +349,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link VerifyCertificateAtTime }
-     * 
+     *
      */
     public VerifyCertificateAtTime createVerifyCertificateAtTime() {
         return new VerifyCertificateAtTime();
@@ -357,7 +357,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignResponse }
-     * 
+     *
      */
     public SignResponse createSignResponse() {
         return new SignResponse();
@@ -365,7 +365,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OpenSignatureSessionResponse }
-     * 
+     *
      */
     public OpenSignatureSessionResponse createOpenSignatureSessionResponse() {
         return new OpenSignatureSessionResponse();
@@ -373,7 +373,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ChangePasswordResponse }
-     * 
+     *
      */
     public ChangePasswordResponse createChangePasswordResponse() {
         return new ChangePasswordResponse();
@@ -381,7 +381,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetUserImagesResponse }
-     * 
+     *
      */
     public GetUserImagesResponse createGetUserImagesResponse() {
         return new GetUserImagesResponse();
@@ -389,7 +389,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignatureImage }
-     * 
+     *
      */
     public SignatureImage createSignatureImage() {
         return new SignatureImage();
@@ -397,7 +397,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignPKCS1ArrayResponse }
-     * 
+     *
      */
     public SignPKCS1ArrayResponse createSignPKCS1ArrayResponse() {
         return new SignPKCS1ArrayResponse();
@@ -405,7 +405,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OpenSignatureSession }
-     * 
+     *
      */
     public OpenSignatureSession createOpenSignatureSession() {
         return new OpenSignatureSession();
@@ -413,7 +413,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignCAdESResponse }
-     * 
+     *
      */
     public SignCAdESResponse createSignCAdESResponse() {
         return new SignCAdESResponse();
@@ -421,7 +421,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetCertificates }
-     * 
+     *
      */
     public GetCertificates createGetCertificates() {
         return new GetCertificates();
@@ -429,7 +429,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SetUserImage }
-     * 
+     *
      */
     public SetUserImage createSetUserImage() {
         return new SetUserImage();
@@ -437,7 +437,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DocumentP7MInfo }
-     * 
+     *
      */
     public DocumentP7MInfo createDocumentP7MInfo() {
         return new DocumentP7MInfo();
@@ -445,7 +445,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link VerifyCertificateResponse }
-     * 
+     *
      */
     public VerifyCertificateResponse createVerifyCertificateResponse() {
         return new VerifyCertificateResponse();
@@ -453,7 +453,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampDetachedResponse }
-     * 
+     *
      */
     public TimestampDetachedResponse createTimestampDetachedResponse() {
         return new TimestampDetachedResponse();
@@ -461,7 +461,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CloseSignatureSession }
-     * 
+     *
      */
     public CloseSignatureSession createCloseSignatureSession() {
         return new CloseSignatureSession();
@@ -469,7 +469,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link FindUserResponse }
-     * 
+     *
      */
     public FindUserResponse createFindUserResponse() {
         return new FindUserResponse();
@@ -477,7 +477,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link UserInfo }
-     * 
+     *
      */
     public UserInfo createUserInfo() {
         return new UserInfo();
@@ -485,7 +485,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampResponseResponse }
-     * 
+     *
      */
     public TimestampResponseResponse createTimestampResponseResponse() {
         return new TimestampResponseResponse();
@@ -493,7 +493,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampAttachedResponse }
-     * 
+     *
      */
     public TimestampAttachedResponse createTimestampAttachedResponse() {
         return new TimestampAttachedResponse();
@@ -501,7 +501,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Digest }
-     * 
+     *
      */
     public Digest createDigest() {
         return new Digest();
@@ -509,7 +509,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampTokenResponse }
-     * 
+     *
      */
     public TimestampTokenResponse createTimestampTokenResponse() {
         return new TimestampTokenResponse();
@@ -517,7 +517,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AddUserResponse }
-     * 
+     *
      */
     public AddUserResponse createAddUserResponse() {
         return new AddUserResponse();
@@ -525,7 +525,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SetUserImageResponse }
-     * 
+     *
      */
     public SetUserImageResponse createSetUserImageResponse() {
         return new SetUserImageResponse();
@@ -533,7 +533,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampToken }
-     * 
+     *
      */
     public TimestampToken createTimestampToken() {
         return new TimestampToken();
@@ -541,7 +541,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignCAdES }
-     * 
+     *
      */
     public SignCAdES createSignCAdES() {
         return new SignCAdES();
@@ -549,7 +549,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link RemoteSignatureException }
-     * 
+     *
      */
     public RemoteSignatureException createRemoteSignatureException() {
         return new RemoteSignatureException();
@@ -557,7 +557,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetUsersDirectoryTypeResponse }
-     * 
+     *
      */
     public GetUsersDirectoryTypeResponse createGetUsersDirectoryTypeResponse() {
         return new GetUsersDirectoryTypeResponse();
@@ -565,7 +565,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ChangePassword }
-     * 
+     *
      */
     public ChangePassword createChangePassword() {
         return new ChangePassword();
@@ -573,7 +573,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignXAdESResponse }
-     * 
+     *
      */
     public SignXAdESResponse createSignXAdESResponse() {
         return new SignXAdESResponse();
@@ -581,7 +581,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TimestampResponse }
-     * 
+     *
      */
     public TimestampResponse createTimestampResponse() {
         return new TimestampResponse();
@@ -589,7 +589,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetUsersDirectoryType }
-     * 
+     *
      */
     public GetUsersDirectoryType createGetUsersDirectoryType() {
         return new GetUsersDirectoryType();
@@ -597,7 +597,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DocumentPdfInfo }
-     * 
+     *
      */
     public DocumentPdfInfo createDocumentPdfInfo() {
         return new DocumentPdfInfo();
@@ -605,7 +605,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DocumentPdfInfoResponse }
-     * 
+     *
      */
     public DocumentPdfInfoResponse createDocumentPdfInfoResponse() {
         return new DocumentPdfInfoResponse();
@@ -613,7 +613,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link DeleteUserResponse }
-     * 
+     *
      */
     public DeleteUserResponse createDeleteUserResponse() {
         return new DeleteUserResponse();
@@ -621,7 +621,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ArrayOfSignatureStatus }
-     * 
+     *
      */
     public ArrayOfSignatureStatus createArrayOfSignatureStatus() {
         return new ArrayOfSignatureStatus();
@@ -629,7 +629,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ArrayOfPosition }
-     * 
+     *
      */
     public ArrayOfPosition createArrayOfPosition() {
         return new ArrayOfPosition();
@@ -637,7 +637,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link SignatureField }
-     * 
+     *
      */
     public SignatureField createSignatureField() {
         return new SignatureField();
@@ -645,7 +645,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ArrayOfSignature }
-     * 
+     *
      */
     public ArrayOfSignature createArrayOfSignature() {
         return new ArrayOfSignature();
@@ -653,7 +653,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Signature }
-     * 
+     *
      */
     public Signature createSignature() {
         return new Signature();
@@ -661,7 +661,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ArrayOfString }
-     * 
+     *
      */
     public ArrayOfString createArrayOfString() {
         return new ArrayOfString();
@@ -669,7 +669,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ClientCertificateAuth }
-     * 
+     *
      */
     public ClientCertificateAuth createClientCertificateAuth() {
         return new ClientCertificateAuth();
@@ -677,7 +677,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Signatures }
-     * 
+     *
      */
     public Signatures createSignatures() {
         return new Signatures();
@@ -685,7 +685,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SignResponse }{@code >}}
-     * 
+     *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "signResponse")
     public JAXBElement<SignResponse> createSignResponse(SignResponse value) {
@@ -694,7 +694,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Sign }{@code >}}
-     * 
+     *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "sign")
     public JAXBElement<Sign> createSign(Sign value) {
@@ -703,7 +703,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link RemoteSignatureException }{@code >}}
-     * 
+     *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "fault")
     public JAXBElement<RemoteSignatureException> createFault(RemoteSignatureException value) {
@@ -712,7 +712,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link byte[]}{@code >}}
-     * 
+     *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "content", scope = Sign.class)
     public JAXBElement<byte[]> createSignContent(byte[] value) {
@@ -721,7 +721,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link byte[]}{@code >}}
-     * 
+     *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "certificate", scope = Sign.class)
     public JAXBElement<byte[]> createSignCertificate(byte[] value) {
@@ -730,7 +730,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link byte[]}{@code >}}
-     * 
+     *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "signReturn", scope = SignResponse.class)
     public JAXBElement<byte[]> createSignResponseSignReturn(byte[] value) {

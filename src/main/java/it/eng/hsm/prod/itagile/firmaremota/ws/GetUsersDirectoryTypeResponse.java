@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for anonymous complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "getUsersDirectoryTypeReturn" })
@@ -54,9 +54,9 @@ public class GetUsersDirectoryTypeResponse {
 
     /**
      * Gets the value of the getUsersDirectoryTypeReturn property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getGetUsersDirectoryTypeReturn() {
         return getUsersDirectoryTypeReturn;
@@ -64,10 +64,10 @@ public class GetUsersDirectoryTypeResponse {
 
     /**
      * Sets the value of the getUsersDirectoryTypeReturn property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setGetUsersDirectoryTypeReturn(String value) {
         this.getUsersDirectoryTypeReturn = value;

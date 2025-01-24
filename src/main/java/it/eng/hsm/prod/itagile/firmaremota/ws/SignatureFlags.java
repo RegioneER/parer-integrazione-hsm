@@ -25,10 +25,10 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>
  * Java class for SignatureFlags complex type.
- * 
+ *
  * <p>
  * The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="SignatureFlags">
  *   &lt;complexContent>
@@ -49,8 +49,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SignatureFlags", propOrder = { "counterSignaturePath", "graphicalSignature", "ocsp", "timestamp",
@@ -74,9 +74,9 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the counterSignaturePath property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getCounterSignaturePath() {
         return counterSignaturePath;
@@ -84,10 +84,10 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the counterSignaturePath property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setCounterSignaturePath(String value) {
         this.counterSignaturePath = value;
@@ -95,7 +95,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the graphicalSignature property.
-     * 
+     *
      */
     public boolean isGraphicalSignature() {
         return graphicalSignature;
@@ -103,7 +103,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the graphicalSignature property.
-     * 
+     *
      */
     public void setGraphicalSignature(boolean value) {
         this.graphicalSignature = value;
@@ -111,7 +111,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the ocsp property.
-     * 
+     *
      */
     public boolean isOcsp() {
         return ocsp;
@@ -119,7 +119,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the ocsp property.
-     * 
+     *
      */
     public void setOcsp(boolean value) {
         this.ocsp = value;
@@ -127,7 +127,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the timestamp property.
-     * 
+     *
      */
     public boolean isTimestamp() {
         return timestamp;
@@ -135,7 +135,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the timestamp property.
-     * 
+     *
      */
     public void setTimestamp(boolean value) {
         this.timestamp = value;
@@ -143,7 +143,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the cosignCoordinates property.
-     * 
+     *
      */
     public boolean isCosignCoordinates() {
         return cosignCoordinates;
@@ -151,7 +151,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the cosignCoordinates property.
-     * 
+     *
      */
     public void setCosignCoordinates(boolean value) {
         this.cosignCoordinates = value;
@@ -159,9 +159,9 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the timestampCode property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getTimestampCode() {
         return timestampCode;
@@ -169,10 +169,10 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the timestampCode property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setTimestampCode(String value) {
         this.timestampCode = value;
@@ -180,7 +180,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the pdfSignatureLayout property.
-     * 
+     *
      */
     public int getPdfSignatureLayout() {
         return pdfSignatureLayout;
@@ -188,7 +188,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the pdfSignatureLayout property.
-     * 
+     *
      */
     public void setPdfSignatureLayout(int value) {
         this.pdfSignatureLayout = value;
@@ -196,9 +196,9 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the password property.
-     * 
+     *
      * @return possible object is {@link String }
-     * 
+     *
      */
     public String getPassword() {
         return password;
@@ -206,10 +206,10 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the password property.
-     * 
+     *
      * @param value
      *            allowed object is {@link String }
-     * 
+     *
      */
     public void setPassword(String value) {
         this.password = value;
@@ -217,7 +217,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the pdfSignatureCertificationLevel property.
-     * 
+     *
      */
     public int getPdfSignatureCertificationLevel() {
         return pdfSignatureCertificationLevel;
@@ -225,7 +225,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the pdfSignatureCertificationLevel property.
-     * 
+     *
      */
     public void setPdfSignatureCertificationLevel(int value) {
         this.pdfSignatureCertificationLevel = value;
@@ -233,7 +233,7 @@ public class SignatureFlags {
 
     /**
      * Gets the value of the cadesDetached property.
-     * 
+     *
      */
     public boolean isCadesDetached() {
         return cadesDetached;
@@ -241,7 +241,7 @@ public class SignatureFlags {
 
     /**
      * Sets the value of the cadesDetached property.
-     * 
+     *
      */
     public void setCadesDetached(boolean value) {
         this.cadesDetached = value;
