@@ -148,33 +148,35 @@ class ClientHSM_Prod implements ClientHSM {
     }
 
     @Override
-    public byte[] signP7M(HSMUser user, byte[] fileToSign) throws HSMException {
+    public byte[] signP7M(HSMUser user, byte[] fileToSign, boolean marcaTemporale) throws HSMException {
         byte[] result = null;
 
         if (user == null || fileToSign == null) {
             throw new IllegalArgumentException();
         }
-        result = signsP7M(getRemoteSignatureCredentials(user), fileToSign);
+        result = signsP7M(getRemoteSignatureCredentials(user), fileToSign, marcaTemporale);
         return result;
     }
 
     @Override
-    public byte[] signP7M(HSMSignatureSession session, byte[] fileToSign) throws HSMException {
+    public byte[] signP7M(HSMSignatureSession session, byte[] fileToSign, boolean marcaTemporale) throws HSMException {
         byte[] result = null;
 
         if (session == null || fileToSign == null) {
             throw new IllegalArgumentException();
         }
-        result = signsP7M(getRemoteSignatureCredentials(session.getUser()), fileToSign);
+        result = signsP7M(getRemoteSignatureCredentials(session.getUser()), fileToSign, marcaTemporale);
         return result;
     }
 
-    private byte[] signsP7M(RemoteSignatureCredentials credentials, byte[] fileToSign) throws HSMException {
+    private byte[] signsP7M(RemoteSignatureCredentials credentials, byte[] fileToSign, boolean marcaTemporale)
+            throws HSMException {
         byte[] signedBytes = null;
 
         SignatureFlags flags = new SignatureFlags();
         // No marca temporale
-        flags.setTimestamp(false);
+        flags.setTimestamp(marcaTemporale);
+        flags.setCadesDetached(false); // La firma d'ora in poi sarà gestita sempre in modalità embedded
 
         try {
             signedBytes = client.signP7M(credentials, fileToSign, false, false, Constants.DIGEST_TYPE, null, flags);

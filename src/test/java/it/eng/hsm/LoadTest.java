@@ -73,7 +73,7 @@ public class LoadTest {
         logger.info("Inizio ciclo di firma...");
         while (true) {
             try {
-                client.signP7M(user, fileToSign);
+                client.signP7M(user, fileToSign, true);
                 counter++;
 
                 // Sleep the proces

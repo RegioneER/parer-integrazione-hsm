@@ -74,6 +74,8 @@ public interface ClientHSM {
      *            the user who requires the signature
      * @param fileToSign
      *            file to sign
+     * @param marcaTemporale
+     *            true se si desidera aggiungere una marca temporale, false altrimenti
      *
      * @return array di byte del documento P7M firmato
      *
@@ -86,7 +88,7 @@ public interface ClientHSM {
      * @throws HSMException
      *             if a generic error occurs
      */
-    public byte[] signP7M(HSMUser user, byte[] fileToSign)
+    public byte[] signP7M(HSMUser user, byte[] fileToSign, boolean marcaTemporale)
             throws AuthenticationException, OTPException, UserBlockedException, HSMException;
 
     /**
@@ -96,6 +98,8 @@ public interface ClientHSM {
      *            the signature session has to be previously opened
      * @param fileToSign
      *            file to sign
+     * @param marcaTemporale
+     *            true se si desidera aggiungere una marca temporale, false altrimenti
      *
      * @return array di byte del documento P7M firmato
      *
@@ -108,7 +112,7 @@ public interface ClientHSM {
      * @throws HSMException
      *             if a generic error occurs
      */
-    public byte[] signP7M(HSMSignatureSession session, byte[] fileToSign)
+    public byte[] signP7M(HSMSignatureSession session, byte[] fileToSign, boolean marcaTemporale)
             throws AuthenticationException, OTPException, UserBlockedException, HSMException;
     // </editor-fold>
 
