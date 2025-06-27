@@ -71,22 +71,22 @@ public class CAdESTest {
     // Test funzione signP7M
     @Test(expected = IllegalArgumentException.class)
     public void testSignP7M_UserNull() throws HSMException {
-        client.signP7M((HSMUser) null, fileToSign);
+        client.signP7M((HSMUser) null, fileToSign, true);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testSignP7M_SessionNull() throws HSMException {
-        client.signP7M((HSMSignatureSession) null, fileToSign);
+        client.signP7M((HSMSignatureSession) null, fileToSign, true);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testSignP7M_FileNull() throws HSMException {
-        client.signP7M(TestUtils.getWrongUserTest(), null);
+        client.signP7M(TestUtils.getWrongUserTest(), null, true);
     }
 
     @Test(expected = AuthenticationException.class)
     public void testSignP7M_WrongUser() throws HSMException {
-        client.signP7M(TestUtils.getWrongUserTest(), fileToSign);
+        client.signP7M(TestUtils.getWrongUserTest(), fileToSign, true);
     }
 
     /**
@@ -122,11 +122,11 @@ public class CAdESTest {
 
         // Signs the file sending by parameter the session
         try {
-            byte[] result = client.signP7M(session, fileToSign);
+            byte[] result = client.signP7M(session, fileToSign, true);
             signatureP7M.add(result);
             logger.info("File 1 firmato");
 
-            result = client.signP7M(user, fileToSign);
+            result = client.signP7M(user, fileToSign, true);
             signatureP7M.add(result);
             logger.info("File 2 firmato");
         } catch (AuthenticationException ex) {
