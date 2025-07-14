@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -59,10 +55,11 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "SignatureStatus", propOrder = { "certStatus", "counterSignatures", "digestAlgorithm",
-        "encryptionAlgorithm", "invalidSignatureMessage", "invalidTimestampMessage", "locality", "reason", "fieldName",
-        "signatureTime", "timestamp", "timestampCertificate", "validSignature", "validTimestamp",
-        "invalidSignatureCode", "invalidTimestampCode" })
+@XmlType(name = "SignatureStatus", propOrder = {
+	"certStatus", "counterSignatures", "digestAlgorithm", "encryptionAlgorithm",
+	"invalidSignatureMessage", "invalidTimestampMessage", "locality", "reason", "fieldName",
+	"signatureTime", "timestamp", "timestampCertificate", "validSignature", "validTimestamp",
+	"invalidSignatureCode", "invalidTimestampCode" })
 public class SignatureStatus {
 
     @XmlElement(required = true, nillable = true)
@@ -101,18 +98,17 @@ public class SignatureStatus {
      *
      */
     public CertificateStatus getCertStatus() {
-        return certStatus;
+	return certStatus;
     }
 
     /**
      * Sets the value of the certStatus property.
      *
-     * @param value
-     *            allowed object is {@link CertificateStatus }
+     * @param value allowed object is {@link CertificateStatus }
      *
      */
     public void setCertStatus(CertificateStatus value) {
-        this.certStatus = value;
+	this.certStatus = value;
     }
 
     /**
@@ -122,18 +118,17 @@ public class SignatureStatus {
      *
      */
     public ArrayOfSignatureStatus getCounterSignatures() {
-        return counterSignatures;
+	return counterSignatures;
     }
 
     /**
      * Sets the value of the counterSignatures property.
      *
-     * @param value
-     *            allowed object is {@link ArrayOfSignatureStatus }
+     * @param value allowed object is {@link ArrayOfSignatureStatus }
      *
      */
     public void setCounterSignatures(ArrayOfSignatureStatus value) {
-        this.counterSignatures = value;
+	this.counterSignatures = value;
     }
 
     /**
@@ -143,18 +138,17 @@ public class SignatureStatus {
      *
      */
     public String getDigestAlgorithm() {
-        return digestAlgorithm;
+	return digestAlgorithm;
     }
 
     /**
      * Sets the value of the digestAlgorithm property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDigestAlgorithm(String value) {
-        this.digestAlgorithm = value;
+	this.digestAlgorithm = value;
     }
 
     /**
@@ -164,18 +158,17 @@ public class SignatureStatus {
      *
      */
     public String getEncryptionAlgorithm() {
-        return encryptionAlgorithm;
+	return encryptionAlgorithm;
     }
 
     /**
      * Sets the value of the encryptionAlgorithm property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setEncryptionAlgorithm(String value) {
-        this.encryptionAlgorithm = value;
+	this.encryptionAlgorithm = value;
     }
 
     /**
@@ -185,18 +178,17 @@ public class SignatureStatus {
      *
      */
     public String getInvalidSignatureMessage() {
-        return invalidSignatureMessage;
+	return invalidSignatureMessage;
     }
 
     /**
      * Sets the value of the invalidSignatureMessage property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setInvalidSignatureMessage(String value) {
-        this.invalidSignatureMessage = value;
+	this.invalidSignatureMessage = value;
     }
 
     /**
@@ -206,18 +198,17 @@ public class SignatureStatus {
      *
      */
     public String getInvalidTimestampMessage() {
-        return invalidTimestampMessage;
+	return invalidTimestampMessage;
     }
 
     /**
      * Sets the value of the invalidTimestampMessage property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setInvalidTimestampMessage(String value) {
-        this.invalidTimestampMessage = value;
+	this.invalidTimestampMessage = value;
     }
 
     /**
@@ -227,18 +218,17 @@ public class SignatureStatus {
      *
      */
     public String getLocality() {
-        return locality;
+	return locality;
     }
 
     /**
      * Sets the value of the locality property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setLocality(String value) {
-        this.locality = value;
+	this.locality = value;
     }
 
     /**
@@ -248,18 +238,17 @@ public class SignatureStatus {
      *
      */
     public String getReason() {
-        return reason;
+	return reason;
     }
 
     /**
      * Sets the value of the reason property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setReason(String value) {
-        this.reason = value;
+	this.reason = value;
     }
 
     /**
@@ -269,18 +258,17 @@ public class SignatureStatus {
      *
      */
     public String getFieldName() {
-        return fieldName;
+	return fieldName;
     }
 
     /**
      * Sets the value of the fieldName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setFieldName(String value) {
-        this.fieldName = value;
+	this.fieldName = value;
     }
 
     /**
@@ -288,7 +276,7 @@ public class SignatureStatus {
      *
      */
     public long getSignatureTime() {
-        return signatureTime;
+	return signatureTime;
     }
 
     /**
@@ -296,7 +284,7 @@ public class SignatureStatus {
      *
      */
     public void setSignatureTime(long value) {
-        this.signatureTime = value;
+	this.signatureTime = value;
     }
 
     /**
@@ -304,7 +292,7 @@ public class SignatureStatus {
      *
      */
     public boolean isTimestamp() {
-        return timestamp;
+	return timestamp;
     }
 
     /**
@@ -312,7 +300,7 @@ public class SignatureStatus {
      *
      */
     public void setTimestamp(boolean value) {
-        this.timestamp = value;
+	this.timestamp = value;
     }
 
     /**
@@ -321,17 +309,16 @@ public class SignatureStatus {
      * @return possible object is byte[]
      */
     public byte[] getTimestampCertificate() {
-        return timestampCertificate;
+	return timestampCertificate;
     }
 
     /**
      * Sets the value of the timestampCertificate property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setTimestampCertificate(byte[] value) {
-        this.timestampCertificate = value;
+	this.timestampCertificate = value;
     }
 
     /**
@@ -339,7 +326,7 @@ public class SignatureStatus {
      *
      */
     public boolean isValidSignature() {
-        return validSignature;
+	return validSignature;
     }
 
     /**
@@ -347,7 +334,7 @@ public class SignatureStatus {
      *
      */
     public void setValidSignature(boolean value) {
-        this.validSignature = value;
+	this.validSignature = value;
     }
 
     /**
@@ -355,7 +342,7 @@ public class SignatureStatus {
      *
      */
     public boolean isValidTimestamp() {
-        return validTimestamp;
+	return validTimestamp;
     }
 
     /**
@@ -363,7 +350,7 @@ public class SignatureStatus {
      *
      */
     public void setValidTimestamp(boolean value) {
-        this.validTimestamp = value;
+	this.validTimestamp = value;
     }
 
     /**
@@ -373,18 +360,17 @@ public class SignatureStatus {
      *
      */
     public ArrayOfString getInvalidSignatureCode() {
-        return invalidSignatureCode;
+	return invalidSignatureCode;
     }
 
     /**
      * Sets the value of the invalidSignatureCode property.
      *
-     * @param value
-     *            allowed object is {@link ArrayOfString }
+     * @param value allowed object is {@link ArrayOfString }
      *
      */
     public void setInvalidSignatureCode(ArrayOfString value) {
-        this.invalidSignatureCode = value;
+	this.invalidSignatureCode = value;
     }
 
     /**
@@ -394,17 +380,16 @@ public class SignatureStatus {
      *
      */
     public ArrayOfString getInvalidTimestampCode() {
-        return invalidTimestampCode;
+	return invalidTimestampCode;
     }
 
     /**
      * Sets the value of the invalidTimestampCode property.
      *
-     * @param value
-     *            allowed object is {@link ArrayOfString }
+     * @param value allowed object is {@link ArrayOfString }
      *
      */
     public void setInvalidTimestampCode(ArrayOfString value) {
-        this.invalidTimestampCode = value;
+	this.invalidTimestampCode = value;
     }
 }

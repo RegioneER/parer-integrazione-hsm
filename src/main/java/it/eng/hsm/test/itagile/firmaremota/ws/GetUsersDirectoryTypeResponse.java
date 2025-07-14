@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -45,7 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "getUsersDirectoryTypeReturn" })
+@XmlType(name = "", propOrder = {
+	"getUsersDirectoryTypeReturn" })
 @XmlRootElement(name = "getUsersDirectoryTypeResponse")
 public class GetUsersDirectoryTypeResponse {
 
@@ -59,17 +56,16 @@ public class GetUsersDirectoryTypeResponse {
      *
      */
     public String getGetUsersDirectoryTypeReturn() {
-        return getUsersDirectoryTypeReturn;
+	return getUsersDirectoryTypeReturn;
     }
 
     /**
      * Sets the value of the getUsersDirectoryTypeReturn property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setGetUsersDirectoryTypeReturn(String value) {
-        this.getUsersDirectoryTypeReturn = value;
+	this.getUsersDirectoryTypeReturn = value;
     }
 }

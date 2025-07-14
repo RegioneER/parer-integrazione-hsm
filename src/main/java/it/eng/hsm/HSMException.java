@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm;
@@ -31,11 +27,12 @@ public class HSMException extends Exception {
     private String errorCode;
 
     /*
-     * This constructor will be used when the HSM doesn't return the error code which caused the error.
+     * This constructor will be used when the HSM doesn't return the error code which caused the
+     * error.
      *
      */
     public HSMException() {
-        super();
+	super();
     }
 
     /*
@@ -46,9 +43,9 @@ public class HSMException extends Exception {
      * @param cause
      */
     public HSMException(String errorCode, Throwable cause) {
-        super(ErrorUtils.getErrorDescription(errorCode), cause);
+	super(ErrorUtils.getErrorDescription(errorCode), cause);
 
-        this.errorCode = errorCode;
+	this.errorCode = errorCode;
     }
 
     /*
@@ -57,7 +54,7 @@ public class HSMException extends Exception {
      * @param errorCode
      */
     public HSMException(String errorCode) {
-        this(errorCode, null);
+	this(errorCode, null);
     }
 
     /*
@@ -66,7 +63,7 @@ public class HSMException extends Exception {
      * @param cause
      */
     public HSMException(Throwable cause) {
-        super(cause);
+	super(cause);
     }
 
     /*
@@ -75,7 +72,7 @@ public class HSMException extends Exception {
      * @return the description of the thrown error
      */
     public String getErrorCode() {
-        return errorCode;
+	return errorCode;
     }
 
     /*
@@ -84,6 +81,6 @@ public class HSMException extends Exception {
      * @return the description of the thrown error
      */
     public String getErrorDescription() {
-        return ErrorUtils.getErrorDescription(errorCode);
+	return ErrorUtils.getErrorDescription(errorCode);
     }
 }

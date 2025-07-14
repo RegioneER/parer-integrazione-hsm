@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -73,10 +69,12 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "Signature", propOrder = { "signType", "digestAlg", "signTime", "givenName", "surName", "fiscalCode",
-        "organization", "orgUnit", "certID", "certType", "certSerial", "certKeyUsage", "trustSp", "certDateFrom",
-        "certDateTo", "timestamp", "tsAuthority", "tsLenght", "signatureField", "valid", "validSign", "validCert",
-        "validTrust", "validTimestamp", "signErrCode", "certErrCode", "trustErrCode", "p7MLevel", "p7MPath", "x509" })
+@XmlType(name = "Signature", propOrder = {
+	"signType", "digestAlg", "signTime", "givenName", "surName", "fiscalCode", "organization",
+	"orgUnit", "certID", "certType", "certSerial", "certKeyUsage", "trustSp", "certDateFrom",
+	"certDateTo", "timestamp", "tsAuthority", "tsLenght", "signatureField", "valid",
+	"validSign", "validCert", "validTrust", "validTimestamp", "signErrCode", "certErrCode",
+	"trustErrCode", "p7MLevel", "p7MPath", "x509" })
 public class Signature {
 
     @XmlElement(required = true, nillable = true)
@@ -147,18 +145,17 @@ public class Signature {
      *
      */
     public String getSignType() {
-        return signType;
+	return signType;
     }
 
     /**
      * Sets the value of the signType property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setSignType(String value) {
-        this.signType = value;
+	this.signType = value;
     }
 
     /**
@@ -168,18 +165,17 @@ public class Signature {
      *
      */
     public String getDigestAlg() {
-        return digestAlg;
+	return digestAlg;
     }
 
     /**
      * Sets the value of the digestAlg property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDigestAlg(String value) {
-        this.digestAlg = value;
+	this.digestAlg = value;
     }
 
     /**
@@ -189,18 +185,17 @@ public class Signature {
      *
      */
     public Long getSignTime() {
-        return signTime;
+	return signTime;
     }
 
     /**
      * Sets the value of the signTime property.
      *
-     * @param value
-     *            allowed object is {@link Long }
+     * @param value allowed object is {@link Long }
      *
      */
     public void setSignTime(Long value) {
-        this.signTime = value;
+	this.signTime = value;
     }
 
     /**
@@ -210,18 +205,17 @@ public class Signature {
      *
      */
     public String getGivenName() {
-        return givenName;
+	return givenName;
     }
 
     /**
      * Sets the value of the givenName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setGivenName(String value) {
-        this.givenName = value;
+	this.givenName = value;
     }
 
     /**
@@ -231,18 +225,17 @@ public class Signature {
      *
      */
     public String getSurName() {
-        return surName;
+	return surName;
     }
 
     /**
      * Sets the value of the surName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setSurName(String value) {
-        this.surName = value;
+	this.surName = value;
     }
 
     /**
@@ -252,18 +245,17 @@ public class Signature {
      *
      */
     public String getFiscalCode() {
-        return fiscalCode;
+	return fiscalCode;
     }
 
     /**
      * Sets the value of the fiscalCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setFiscalCode(String value) {
-        this.fiscalCode = value;
+	this.fiscalCode = value;
     }
 
     /**
@@ -273,18 +265,17 @@ public class Signature {
      *
      */
     public String getOrganization() {
-        return organization;
+	return organization;
     }
 
     /**
      * Sets the value of the organization property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setOrganization(String value) {
-        this.organization = value;
+	this.organization = value;
     }
 
     /**
@@ -294,18 +285,17 @@ public class Signature {
      *
      */
     public String getOrgUnit() {
-        return orgUnit;
+	return orgUnit;
     }
 
     /**
      * Sets the value of the orgUnit property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setOrgUnit(String value) {
-        this.orgUnit = value;
+	this.orgUnit = value;
     }
 
     /**
@@ -315,18 +305,17 @@ public class Signature {
      *
      */
     public String getCertID() {
-        return certID;
+	return certID;
     }
 
     /**
      * Sets the value of the certID property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCertID(String value) {
-        this.certID = value;
+	this.certID = value;
     }
 
     /**
@@ -336,18 +325,17 @@ public class Signature {
      *
      */
     public String getCertType() {
-        return certType;
+	return certType;
     }
 
     /**
      * Sets the value of the certType property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCertType(String value) {
-        this.certType = value;
+	this.certType = value;
     }
 
     /**
@@ -357,18 +345,17 @@ public class Signature {
      *
      */
     public String getCertSerial() {
-        return certSerial;
+	return certSerial;
     }
 
     /**
      * Sets the value of the certSerial property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCertSerial(String value) {
-        this.certSerial = value;
+	this.certSerial = value;
     }
 
     /**
@@ -378,18 +365,17 @@ public class Signature {
      *
      */
     public String getCertKeyUsage() {
-        return certKeyUsage;
+	return certKeyUsage;
     }
 
     /**
      * Sets the value of the certKeyUsage property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCertKeyUsage(String value) {
-        this.certKeyUsage = value;
+	this.certKeyUsage = value;
     }
 
     /**
@@ -399,18 +385,17 @@ public class Signature {
      *
      */
     public String getTrustSp() {
-        return trustSp;
+	return trustSp;
     }
 
     /**
      * Sets the value of the trustSp property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setTrustSp(String value) {
-        this.trustSp = value;
+	this.trustSp = value;
     }
 
     /**
@@ -420,18 +405,17 @@ public class Signature {
      *
      */
     public Long getCertDateFrom() {
-        return certDateFrom;
+	return certDateFrom;
     }
 
     /**
      * Sets the value of the certDateFrom property.
      *
-     * @param value
-     *            allowed object is {@link Long }
+     * @param value allowed object is {@link Long }
      *
      */
     public void setCertDateFrom(Long value) {
-        this.certDateFrom = value;
+	this.certDateFrom = value;
     }
 
     /**
@@ -441,18 +425,17 @@ public class Signature {
      *
      */
     public Long getCertDateTo() {
-        return certDateTo;
+	return certDateTo;
     }
 
     /**
      * Sets the value of the certDateTo property.
      *
-     * @param value
-     *            allowed object is {@link Long }
+     * @param value allowed object is {@link Long }
      *
      */
     public void setCertDateTo(Long value) {
-        this.certDateTo = value;
+	this.certDateTo = value;
     }
 
     /**
@@ -462,18 +445,17 @@ public class Signature {
      *
      */
     public Boolean isTimestamp() {
-        return timestamp;
+	return timestamp;
     }
 
     /**
      * Sets the value of the timestamp property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setTimestamp(Boolean value) {
-        this.timestamp = value;
+	this.timestamp = value;
     }
 
     /**
@@ -483,18 +465,17 @@ public class Signature {
      *
      */
     public String getTsAuthority() {
-        return tsAuthority;
+	return tsAuthority;
     }
 
     /**
      * Sets the value of the tsAuthority property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setTsAuthority(String value) {
-        this.tsAuthority = value;
+	this.tsAuthority = value;
     }
 
     /**
@@ -504,18 +485,17 @@ public class Signature {
      *
      */
     public Long getTsLenght() {
-        return tsLenght;
+	return tsLenght;
     }
 
     /**
      * Sets the value of the tsLenght property.
      *
-     * @param value
-     *            allowed object is {@link Long }
+     * @param value allowed object is {@link Long }
      *
      */
     public void setTsLenght(Long value) {
-        this.tsLenght = value;
+	this.tsLenght = value;
     }
 
     /**
@@ -525,18 +505,17 @@ public class Signature {
      *
      */
     public SignatureField getSignatureField() {
-        return signatureField;
+	return signatureField;
     }
 
     /**
      * Sets the value of the signatureField property.
      *
-     * @param value
-     *            allowed object is {@link SignatureField }
+     * @param value allowed object is {@link SignatureField }
      *
      */
     public void setSignatureField(SignatureField value) {
-        this.signatureField = value;
+	this.signatureField = value;
     }
 
     /**
@@ -546,18 +525,17 @@ public class Signature {
      *
      */
     public Boolean isValid() {
-        return valid;
+	return valid;
     }
 
     /**
      * Sets the value of the valid property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setValid(Boolean value) {
-        this.valid = value;
+	this.valid = value;
     }
 
     /**
@@ -567,18 +545,17 @@ public class Signature {
      *
      */
     public Boolean isValidSign() {
-        return validSign;
+	return validSign;
     }
 
     /**
      * Sets the value of the validSign property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setValidSign(Boolean value) {
-        this.validSign = value;
+	this.validSign = value;
     }
 
     /**
@@ -588,18 +565,17 @@ public class Signature {
      *
      */
     public Boolean isValidCert() {
-        return validCert;
+	return validCert;
     }
 
     /**
      * Sets the value of the validCert property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setValidCert(Boolean value) {
-        this.validCert = value;
+	this.validCert = value;
     }
 
     /**
@@ -609,18 +585,17 @@ public class Signature {
      *
      */
     public Boolean isValidTrust() {
-        return validTrust;
+	return validTrust;
     }
 
     /**
      * Sets the value of the validTrust property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setValidTrust(Boolean value) {
-        this.validTrust = value;
+	this.validTrust = value;
     }
 
     /**
@@ -630,18 +605,17 @@ public class Signature {
      *
      */
     public Boolean isValidTimestamp() {
-        return validTimestamp;
+	return validTimestamp;
     }
 
     /**
      * Sets the value of the validTimestamp property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setValidTimestamp(Boolean value) {
-        this.validTimestamp = value;
+	this.validTimestamp = value;
     }
 
     /**
@@ -651,18 +625,17 @@ public class Signature {
      *
      */
     public String getSignErrCode() {
-        return signErrCode;
+	return signErrCode;
     }
 
     /**
      * Sets the value of the signErrCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setSignErrCode(String value) {
-        this.signErrCode = value;
+	this.signErrCode = value;
     }
 
     /**
@@ -672,18 +645,17 @@ public class Signature {
      *
      */
     public String getCertErrCode() {
-        return certErrCode;
+	return certErrCode;
     }
 
     /**
      * Sets the value of the certErrCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCertErrCode(String value) {
-        this.certErrCode = value;
+	this.certErrCode = value;
     }
 
     /**
@@ -693,18 +665,17 @@ public class Signature {
      *
      */
     public String getTrustErrCode() {
-        return trustErrCode;
+	return trustErrCode;
     }
 
     /**
      * Sets the value of the trustErrCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setTrustErrCode(String value) {
-        this.trustErrCode = value;
+	this.trustErrCode = value;
     }
 
     /**
@@ -714,18 +685,17 @@ public class Signature {
      *
      */
     public Integer getP7MLevel() {
-        return p7MLevel;
+	return p7MLevel;
     }
 
     /**
      * Sets the value of the p7MLevel property.
      *
-     * @param value
-     *            allowed object is {@link Integer }
+     * @param value allowed object is {@link Integer }
      *
      */
     public void setP7MLevel(Integer value) {
-        this.p7MLevel = value;
+	this.p7MLevel = value;
     }
 
     /**
@@ -735,18 +705,17 @@ public class Signature {
      *
      */
     public String getP7MPath() {
-        return p7MPath;
+	return p7MPath;
     }
 
     /**
      * Sets the value of the p7MPath property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setP7MPath(String value) {
-        this.p7MPath = value;
+	this.p7MPath = value;
     }
 
     /**
@@ -755,16 +724,15 @@ public class Signature {
      * @return possible object is byte[]
      */
     public byte[] getX509() {
-        return x509;
+	return x509;
     }
 
     /**
      * Sets the value of the x509 property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setX509(byte[] value) {
-        this.x509 = value;
+	this.x509 = value;
     }
 }

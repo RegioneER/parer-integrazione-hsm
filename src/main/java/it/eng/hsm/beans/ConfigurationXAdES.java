@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.beans;
@@ -35,35 +31,36 @@ public class ConfigurationXAdES {
      *
      */
     public ConfigurationXAdES() {
-        this.profile = XAdES.PROFILES.BES;
-        this.type = XAdES.TYPE.ENVELOPED;
-        this.validation = null;
+	this.profile = XAdES.PROFILES.BES;
+	this.type = XAdES.TYPE.ENVELOPED;
+	this.validation = null;
     }
 
-    public ConfigurationXAdES(XAdES.PROFILES profile, XAdES.TYPE type, XAdES.VALIDATION validation) {
-        this.profile = profile;
-        this.type = type;
-        this.validation = validation;
+    public ConfigurationXAdES(XAdES.PROFILES profile, XAdES.TYPE type,
+	    XAdES.VALIDATION validation) {
+	this.profile = profile;
+	this.type = type;
+	this.validation = validation;
     }
 
     /**
      * @return the profile
      */
     public XAdES.PROFILES getProfile() {
-        return profile;
+	return profile;
     }
 
     /**
      * @return the type
      */
     public XAdES.TYPE getType() {
-        return type;
+	return type;
     }
 
     /**
      * @return the validation
      */
     public XAdES.VALIDATION getValidation() {
-        return validation;
+	return validation;
     }
 }

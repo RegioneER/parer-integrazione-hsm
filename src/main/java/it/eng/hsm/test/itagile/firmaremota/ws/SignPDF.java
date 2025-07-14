@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -62,9 +58,10 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "cred", "content", "contentInAttachments", "digestType", "x509Certificate", "flags",
-        "fieldName", "page", "x", "y", "width", "height", "userName", "reason", "location", "dateFormat", "text",
-        "fontSize" })
+@XmlType(name = "", propOrder = {
+	"cred", "content", "contentInAttachments", "digestType", "x509Certificate", "flags",
+	"fieldName", "page", "x", "y", "width", "height", "userName", "reason", "location",
+	"dateFormat", "text", "fontSize" })
 @XmlRootElement(name = "signPDF")
 public class SignPDF {
 
@@ -105,18 +102,17 @@ public class SignPDF {
      *
      */
     public RemoteSignatureCredentials getCred() {
-        return cred;
+	return cred;
     }
 
     /**
      * Sets the value of the cred property.
      *
-     * @param value
-     *            allowed object is {@link RemoteSignatureCredentials }
+     * @param value allowed object is {@link RemoteSignatureCredentials }
      *
      */
     public void setCred(RemoteSignatureCredentials value) {
-        this.cred = value;
+	this.cred = value;
     }
 
     /**
@@ -125,17 +121,16 @@ public class SignPDF {
      * @return possible object is byte[]
      */
     public byte[] getContent() {
-        return content;
+	return content;
     }
 
     /**
      * Sets the value of the content property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setContent(byte[] value) {
-        this.content = value;
+	this.content = value;
     }
 
     /**
@@ -143,7 +138,7 @@ public class SignPDF {
      *
      */
     public boolean isContentInAttachments() {
-        return contentInAttachments;
+	return contentInAttachments;
     }
 
     /**
@@ -151,7 +146,7 @@ public class SignPDF {
      *
      */
     public void setContentInAttachments(boolean value) {
-        this.contentInAttachments = value;
+	this.contentInAttachments = value;
     }
 
     /**
@@ -161,18 +156,17 @@ public class SignPDF {
      *
      */
     public String getDigestType() {
-        return digestType;
+	return digestType;
     }
 
     /**
      * Sets the value of the digestType property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDigestType(String value) {
-        this.digestType = value;
+	this.digestType = value;
     }
 
     /**
@@ -181,17 +175,16 @@ public class SignPDF {
      * @return possible object is byte[]
      */
     public byte[] getX509Certificate() {
-        return x509Certificate;
+	return x509Certificate;
     }
 
     /**
      * Sets the value of the x509Certificate property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setX509Certificate(byte[] value) {
-        this.x509Certificate = value;
+	this.x509Certificate = value;
     }
 
     /**
@@ -201,18 +194,17 @@ public class SignPDF {
      *
      */
     public SignatureFlags getFlags() {
-        return flags;
+	return flags;
     }
 
     /**
      * Sets the value of the flags property.
      *
-     * @param value
-     *            allowed object is {@link SignatureFlags }
+     * @param value allowed object is {@link SignatureFlags }
      *
      */
     public void setFlags(SignatureFlags value) {
-        this.flags = value;
+	this.flags = value;
     }
 
     /**
@@ -222,18 +214,17 @@ public class SignPDF {
      *
      */
     public String getFieldName() {
-        return fieldName;
+	return fieldName;
     }
 
     /**
      * Sets the value of the fieldName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setFieldName(String value) {
-        this.fieldName = value;
+	this.fieldName = value;
     }
 
     /**
@@ -241,7 +232,7 @@ public class SignPDF {
      *
      */
     public int getPage() {
-        return page;
+	return page;
     }
 
     /**
@@ -249,7 +240,7 @@ public class SignPDF {
      *
      */
     public void setPage(int value) {
-        this.page = value;
+	this.page = value;
     }
 
     /**
@@ -257,7 +248,7 @@ public class SignPDF {
      *
      */
     public int getX() {
-        return x;
+	return x;
     }
 
     /**
@@ -265,7 +256,7 @@ public class SignPDF {
      *
      */
     public void setX(int value) {
-        this.x = value;
+	this.x = value;
     }
 
     /**
@@ -273,7 +264,7 @@ public class SignPDF {
      *
      */
     public int getY() {
-        return y;
+	return y;
     }
 
     /**
@@ -281,7 +272,7 @@ public class SignPDF {
      *
      */
     public void setY(int value) {
-        this.y = value;
+	this.y = value;
     }
 
     /**
@@ -289,7 +280,7 @@ public class SignPDF {
      *
      */
     public int getWidth() {
-        return width;
+	return width;
     }
 
     /**
@@ -297,7 +288,7 @@ public class SignPDF {
      *
      */
     public void setWidth(int value) {
-        this.width = value;
+	this.width = value;
     }
 
     /**
@@ -305,7 +296,7 @@ public class SignPDF {
      *
      */
     public int getHeight() {
-        return height;
+	return height;
     }
 
     /**
@@ -313,7 +304,7 @@ public class SignPDF {
      *
      */
     public void setHeight(int value) {
-        this.height = value;
+	this.height = value;
     }
 
     /**
@@ -323,18 +314,17 @@ public class SignPDF {
      *
      */
     public String getUserName() {
-        return userName;
+	return userName;
     }
 
     /**
      * Sets the value of the userName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUserName(String value) {
-        this.userName = value;
+	this.userName = value;
     }
 
     /**
@@ -344,18 +334,17 @@ public class SignPDF {
      *
      */
     public String getReason() {
-        return reason;
+	return reason;
     }
 
     /**
      * Sets the value of the reason property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setReason(String value) {
-        this.reason = value;
+	this.reason = value;
     }
 
     /**
@@ -365,18 +354,17 @@ public class SignPDF {
      *
      */
     public String getLocation() {
-        return location;
+	return location;
     }
 
     /**
      * Sets the value of the location property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setLocation(String value) {
-        this.location = value;
+	this.location = value;
     }
 
     /**
@@ -386,18 +374,17 @@ public class SignPDF {
      *
      */
     public String getDateFormat() {
-        return dateFormat;
+	return dateFormat;
     }
 
     /**
      * Sets the value of the dateFormat property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDateFormat(String value) {
-        this.dateFormat = value;
+	this.dateFormat = value;
     }
 
     /**
@@ -407,18 +394,17 @@ public class SignPDF {
      *
      */
     public String getText() {
-        return text;
+	return text;
     }
 
     /**
      * Sets the value of the text property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setText(String value) {
-        this.text = value;
+	this.text = value;
     }
 
     /**
@@ -426,7 +412,7 @@ public class SignPDF {
      *
      */
     public int getFontSize() {
-        return fontSize;
+	return fontSize;
     }
 
     /**
@@ -434,6 +420,6 @@ public class SignPDF {
      *
      */
     public void setFontSize(int value) {
-        this.fontSize = value;
+	this.fontSize = value;
     }
 }

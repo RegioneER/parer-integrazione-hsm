@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.beans;
@@ -49,159 +45,159 @@ public class Certificate {
     }
 
     public Certificate(byte[] x509) {
-        this.x509 = x509;
+	this.x509 = x509;
     }
 
     public byte[] getX509() {
-        return x509;
+	return x509;
     }
 
     public void setX509(byte[] x509) {
-        this.x509 = x509;
+	this.x509 = x509;
     }
 
     public String getVersion() {
-        return version;
+	return version;
     }
 
     public void setVersion(String version) {
-        this.version = version;
+	this.version = version;
     }
 
     public String getType() {
-        return type;
+	return type;
     }
 
     public void setType(String type) {
-        this.type = type;
+	this.type = type;
     }
 
     public String getSerialNumber() {
-        return serialNumber;
+	return serialNumber;
     }
 
     public void setSerialNumber(String serialNumber) {
-        this.serialNumber = serialNumber;
+	this.serialNumber = serialNumber;
     }
 
     public String getCertKeyUsage() {
-        return certKeyUsage;
+	return certKeyUsage;
     }
 
     public void setCertKeyUsage(String certKeyUsage) {
-        this.certKeyUsage = certKeyUsage;
+	this.certKeyUsage = certKeyUsage;
     }
 
     public String getGivenName() {
-        return givenName;
+	return givenName;
     }
 
     public void setGivenName(String givenName) {
-        this.givenName = givenName;
+	this.givenName = givenName;
     }
 
     public String getSurname() {
-        return surname;
+	return surname;
     }
 
     public void setSurname(String surname) {
-        this.surname = surname;
+	this.surname = surname;
     }
 
     public String getFiscalCode() {
-        return fiscalCode;
+	return fiscalCode;
     }
 
     public void setFiscalCode(String fiscalCode) {
-        this.fiscalCode = fiscalCode;
+	this.fiscalCode = fiscalCode;
     }
 
     public String getOrganisation() {
-        return organisation;
+	return organisation;
     }
 
     public void setOrganisation(String organisation) {
-        this.organisation = organisation;
+	this.organisation = organisation;
     }
 
     public String getOrgUnity() {
-        return orgUnity;
+	return orgUnity;
     }
 
     public void setOrgUnity(String orgUnity) {
-        this.orgUnity = orgUnity;
+	this.orgUnity = orgUnity;
     }
 
     public String getId() {
-        return id;
+	return id;
     }
 
     public void setId(String id) {
-        this.id = id;
+	this.id = id;
     }
 
     public String getTrustServiceProvider() {
-        return trustServiceProvider;
+	return trustServiceProvider;
     }
 
     public void setTrustServiceProvider(String trustServiceProvider) {
-        this.trustServiceProvider = trustServiceProvider;
+	this.trustServiceProvider = trustServiceProvider;
     }
 
     public Date getValidityFrom() {
-        Date d = null;
-        if (validityFrom != null) {
-            d = new Date(validityFrom.getTime());
-        }
-        return d;
+	Date d = null;
+	if (validityFrom != null) {
+	    d = new Date(validityFrom.getTime());
+	}
+	return d;
     }
 
     public void setValidityFrom(Date validityFrom) {
-        if (validityFrom != null) {
-            this.validityFrom = new Date(validityFrom.getTime());
-        }
+	if (validityFrom != null) {
+	    this.validityFrom = new Date(validityFrom.getTime());
+	}
     }
 
     public Date getValidityTo() {
-        Date d = null;
-        if (validityTo != null) {
-            d = new Date(validityTo.getTime());
-        }
-        return d;
+	Date d = null;
+	if (validityTo != null) {
+	    d = new Date(validityTo.getTime());
+	}
+	return d;
     }
 
     public void setValidityTo(Date validityTo) {
-        if (validityTo != null) {
-            this.validityTo = new Date(validityTo.getTime());
-        }
+	if (validityTo != null) {
+	    this.validityTo = new Date(validityTo.getTime());
+	}
     }
 
     @Override
     protected Object clone() {
-        Certificate result = null;
-        try {
-            Object obj = super.clone();
-            result = (Certificate) obj;
-        } catch (CloneNotSupportedException e) {
-            result = new Certificate();
-        }
+	Certificate result = null;
+	try {
+	    Object obj = super.clone();
+	    result = (Certificate) obj;
+	} catch (CloneNotSupportedException e) {
+	    result = new Certificate();
+	}
 
-        result.x509 = this.x509;
-        result.version = this.version;
-        result.type = this.type;
-        result.serialNumber = this.serialNumber;
-        result.certKeyUsage = this.certKeyUsage;
-        result.givenName = this.givenName;
-        result.surname = this.surname;
-        result.fiscalCode = this.fiscalCode;
-        result.organisation = this.organisation;
-        result.orgUnity = this.orgUnity;
-        result.id = this.id;
-        result.trustServiceProvider = this.trustServiceProvider;
+	result.x509 = this.x509;
+	result.version = this.version;
+	result.type = this.type;
+	result.serialNumber = this.serialNumber;
+	result.certKeyUsage = this.certKeyUsage;
+	result.givenName = this.givenName;
+	result.surname = this.surname;
+	result.fiscalCode = this.fiscalCode;
+	result.organisation = this.organisation;
+	result.orgUnity = this.orgUnity;
+	result.id = this.id;
+	result.trustServiceProvider = this.trustServiceProvider;
 
-        result.validityFrom = new Date(validityFrom.getTime());
-        result.validityTo = new Date(validityTo.getTime());
+	result.validityFrom = new Date(validityFrom.getTime());
+	result.validityTo = new Date(validityTo.getTime());
 
-        return result;
+	return result;
     }
 }

@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.prod.itagile.firmaremota.ws;
@@ -45,7 +41,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "verifyCertificateAtTimeReturn" })
+@XmlType(name = "", propOrder = {
+	"verifyCertificateAtTimeReturn" })
 @XmlRootElement(name = "verifyCertificateAtTimeResponse")
 public class VerifyCertificateAtTimeResponse {
 
@@ -59,17 +56,16 @@ public class VerifyCertificateAtTimeResponse {
      *
      */
     public CertificateStatus getVerifyCertificateAtTimeReturn() {
-        return verifyCertificateAtTimeReturn;
+	return verifyCertificateAtTimeReturn;
     }
 
     /**
      * Sets the value of the verifyCertificateAtTimeReturn property.
      *
-     * @param value
-     *            allowed object is {@link CertificateStatus }
+     * @param value allowed object is {@link CertificateStatus }
      *
      */
     public void setVerifyCertificateAtTimeReturn(CertificateStatus value) {
-        this.verifyCertificateAtTimeReturn = value;
+	this.verifyCertificateAtTimeReturn = value;
     }
 }

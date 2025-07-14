@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm;
@@ -52,16 +48,17 @@ class ErrorUtils {
     public static final String UNKNOWN_ERROR = "HSM unknown error";
 
     static {
-        errorMapping = new Properties();
-        initErrorMapping();
+	errorMapping = new Properties();
+	initErrorMapping();
     }
 
     private static void initErrorMapping() {
-        try (InputStream input = Utils.getFileFromResourcesAsStream(ERROR_FILE)) {
-            errorMapping.load(input);
-        } catch (Exception e) {
-            throw new MissingResourceException("The file \"" + ERROR_FILE + "\" is not readable", null, null);
-        }
+	try (InputStream input = Utils.getFileFromResourcesAsStream(ERROR_FILE)) {
+	    errorMapping.load(input);
+	} catch (Exception e) {
+	    throw new MissingResourceException("The file \"" + ERROR_FILE + "\" is not readable",
+		    null, null);
+	}
     }
 
     /**
@@ -72,15 +69,15 @@ class ErrorUtils {
      * @return
      */
     public static String getErrorDescription(String errorCod) {
-        String result = null;
-        if (errorCod != null) {
-            result = errorMapping.getProperty(errorCod);
-        }
-        if (result == null) {
-            result = UNKNOWN_ERROR;
-        }
+	String result = null;
+	if (errorCod != null) {
+	    result = errorMapping.getProperty(errorCod);
+	}
+	if (result == null) {
+	    result = UNKNOWN_ERROR;
+	}
 
-        return result;
+	return result;
     }
 
     /**
@@ -93,21 +90,21 @@ class ErrorUtils {
      * @throws HSMException
      */
     public static void throwsHSMException(String errorCod)
-            throws AuthenticationException, OTPException, UserBlockedException, HSMException {
-        if (errorCod != null && !errorCod.isEmpty()) {
-            switch (errorCod) {
-            case AUTH_EXCEPTION_COD:
-                throw new AuthenticationException();
-            case OTP_EXCEPTION_COD:
-                throw new OTPException();
-            case USR_BLOCKED_EXCEPTION_COD:
-                throw new UserBlockedException();
+	    throws AuthenticationException, OTPException, UserBlockedException, HSMException {
+	if (errorCod != null && !errorCod.isEmpty()) {
+	    switch (errorCod) {
+	    case AUTH_EXCEPTION_COD:
+		throw new AuthenticationException();
+	    case OTP_EXCEPTION_COD:
+		throw new OTPException();
+	    case USR_BLOCKED_EXCEPTION_COD:
+		throw new UserBlockedException();
 
-            default:
-                throw new HSMException(errorCod);
-            }
-        }
+	    default:
+		throw new HSMException(errorCod);
+	    }
+	}
 
-        throw new HSMException();
+	throw new HSMException();
     }
 }

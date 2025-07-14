@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.prod.itagile.firmaremota.ws;
@@ -23,29 +19,33 @@ import javax.xml.bind.annotation.XmlRegistry;
 import javax.xml.namespace.QName;
 
 /**
- * This object contains factory methods for each Java content interface and Java element interface generated in the
- * it.eng.hsm.prod.itagile.firmaremota.ws package.
+ * This object contains factory methods for each Java content interface and Java element interface
+ * generated in the it.eng.hsm.prod.itagile.firmaremota.ws package.
  * <p>
- * An ObjectFactory allows you to programatically construct new instances of the Java representation for XML content.
- * The Java representation of XML content can consist of schema derived interfaces and classes representing the binding
- * of schema type definitions, element declarations and model groups. Factory methods for each of these are provided in
- * this class.
+ * An ObjectFactory allows you to programatically construct new instances of the Java representation
+ * for XML content. The Java representation of XML content can consist of schema derived interfaces
+ * and classes representing the binding of schema type definitions, element declarations and model
+ * groups. Factory methods for each of these are provided in this class.
  *
  */
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _SignResponseSignReturn_QNAME = new QName("http://ws.firmaremota.itagile.it",
-            "signReturn");
-    private final static QName _SignResponse_QNAME = new QName("http://ws.firmaremota.itagile.it", "signResponse");
+    private final static QName _SignResponseSignReturn_QNAME = new QName(
+	    "http://ws.firmaremota.itagile.it", "signReturn");
+    private final static QName _SignResponse_QNAME = new QName("http://ws.firmaremota.itagile.it",
+	    "signResponse");
     private final static QName _Sign_QNAME = new QName("http://ws.firmaremota.itagile.it", "sign");
-    private final static QName _Fault_QNAME = new QName("http://ws.firmaremota.itagile.it", "fault");
-    private final static QName _SignCertificate_QNAME = new QName("http://ws.firmaremota.itagile.it", "certificate");
-    private final static QName _SignContent_QNAME = new QName("http://ws.firmaremota.itagile.it", "content");
+    private final static QName _Fault_QNAME = new QName("http://ws.firmaremota.itagile.it",
+	    "fault");
+    private final static QName _SignCertificate_QNAME = new QName(
+	    "http://ws.firmaremota.itagile.it", "certificate");
+    private final static QName _SignContent_QNAME = new QName("http://ws.firmaremota.itagile.it",
+	    "content");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package:
-     * it.eng.hsm.prod.itagile.firmaremota.ws
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes
+     * for package: it.eng.hsm.prod.itagile.firmaremota.ws
      *
      */
     public ObjectFactory() {
@@ -56,7 +56,7 @@ public class ObjectFactory {
      *
      */
     public SignPDFResponse createSignPDFResponse() {
-        return new SignPDFResponse();
+	return new SignPDFResponse();
     }
 
     /**
@@ -64,7 +64,7 @@ public class ObjectFactory {
      *
      */
     public DocumentP7MInfoResponse createDocumentP7MInfoResponse() {
-        return new DocumentP7MInfoResponse();
+	return new DocumentP7MInfoResponse();
     }
 
     /**
@@ -72,7 +72,7 @@ public class ObjectFactory {
      *
      */
     public SignatureDocumentInfo createSignatureDocumentInfo() {
-        return new SignatureDocumentInfo();
+	return new SignatureDocumentInfo();
     }
 
     /**
@@ -80,7 +80,7 @@ public class ObjectFactory {
      *
      */
     public DigestResponse createDigestResponse() {
-        return new DigestResponse();
+	return new DigestResponse();
     }
 
     /**
@@ -88,7 +88,7 @@ public class ObjectFactory {
      *
      */
     public AddUser createAddUser() {
-        return new AddUser();
+	return new AddUser();
     }
 
     /**
@@ -96,7 +96,7 @@ public class ObjectFactory {
      *
      */
     public RemoteSignatureCredentials createRemoteSignatureCredentials() {
-        return new RemoteSignatureCredentials();
+	return new RemoteSignatureCredentials();
     }
 
     /**
@@ -104,7 +104,7 @@ public class ObjectFactory {
      *
      */
     public Sign createSign() {
-        return new Sign();
+	return new Sign();
     }
 
     /**
@@ -112,7 +112,7 @@ public class ObjectFactory {
      *
      */
     public SignPKCS1Array createSignPKCS1Array() {
-        return new SignPKCS1Array();
+	return new SignPKCS1Array();
     }
 
     /**
@@ -120,7 +120,7 @@ public class ObjectFactory {
      *
      */
     public SignXAdES createSignXAdES() {
-        return new SignXAdES();
+	return new SignXAdES();
     }
 
     /**
@@ -128,7 +128,7 @@ public class ObjectFactory {
      *
      */
     public RemoteSignatureXadesParams createRemoteSignatureXadesParams() {
-        return new RemoteSignatureXadesParams();
+	return new RemoteSignatureXadesParams();
     }
 
     /**
@@ -136,7 +136,7 @@ public class ObjectFactory {
      *
      */
     public SignPDF createSignPDF() {
-        return new SignPDF();
+	return new SignPDF();
     }
 
     /**
@@ -144,7 +144,7 @@ public class ObjectFactory {
      *
      */
     public SignatureFlags createSignatureFlags() {
-        return new SignatureFlags();
+	return new SignatureFlags();
     }
 
     /**
@@ -152,7 +152,7 @@ public class ObjectFactory {
      *
      */
     public ChangeUserPasswordResponse createChangeUserPasswordResponse() {
-        return new ChangeUserPasswordResponse();
+	return new ChangeUserPasswordResponse();
     }
 
     /**
@@ -160,7 +160,7 @@ public class ObjectFactory {
      *
      */
     public SignP7M createSignP7M() {
-        return new SignP7M();
+	return new SignP7M();
     }
 
     /**
@@ -168,7 +168,7 @@ public class ObjectFactory {
      *
      */
     public DocumentXadesInfoResponse createDocumentXadesInfoResponse() {
-        return new DocumentXadesInfoResponse();
+	return new DocumentXadesInfoResponse();
     }
 
     /**
@@ -176,7 +176,7 @@ public class ObjectFactory {
      *
      */
     public IsModuleActive createIsModuleActive() {
-        return new IsModuleActive();
+	return new IsModuleActive();
     }
 
     /**
@@ -184,7 +184,7 @@ public class ObjectFactory {
      *
      */
     public SignPDFPath createSignPDFPath() {
-        return new SignPDFPath();
+	return new SignPDFPath();
     }
 
     /**
@@ -192,7 +192,7 @@ public class ObjectFactory {
      *
      */
     public SignPDFPathResponse createSignPDFPathResponse() {
-        return new SignPDFPathResponse();
+	return new SignPDFPathResponse();
     }
 
     /**
@@ -200,7 +200,7 @@ public class ObjectFactory {
      *
      */
     public ChangeUserPassword createChangeUserPassword() {
-        return new ChangeUserPassword();
+	return new ChangeUserPassword();
     }
 
     /**
@@ -208,7 +208,7 @@ public class ObjectFactory {
      *
      */
     public FindUser createFindUser() {
-        return new FindUser();
+	return new FindUser();
     }
 
     /**
@@ -216,7 +216,7 @@ public class ObjectFactory {
      *
      */
     public VerifySignatures createVerifySignatures() {
-        return new VerifySignatures();
+	return new VerifySignatures();
     }
 
     /**
@@ -224,7 +224,7 @@ public class ObjectFactory {
      *
      */
     public SignPKCS1Response createSignPKCS1Response() {
-        return new SignPKCS1Response();
+	return new SignPKCS1Response();
     }
 
     /**
@@ -232,7 +232,7 @@ public class ObjectFactory {
      *
      */
     public VerifyCertificate createVerifyCertificate() {
-        return new VerifyCertificate();
+	return new VerifyCertificate();
     }
 
     /**
@@ -240,7 +240,7 @@ public class ObjectFactory {
      *
      */
     public TimestampDetached createTimestampDetached() {
-        return new TimestampDetached();
+	return new TimestampDetached();
     }
 
     /**
@@ -248,7 +248,7 @@ public class ObjectFactory {
      *
      */
     public VerifyCertificateAtTimeResponse createVerifyCertificateAtTimeResponse() {
-        return new VerifyCertificateAtTimeResponse();
+	return new VerifyCertificateAtTimeResponse();
     }
 
     /**
@@ -256,7 +256,7 @@ public class ObjectFactory {
      *
      */
     public CertificateStatus createCertificateStatus() {
-        return new CertificateStatus();
+	return new CertificateStatus();
     }
 
     /**
@@ -264,7 +264,7 @@ public class ObjectFactory {
      *
      */
     public DocumentXadesInfo createDocumentXadesInfo() {
-        return new DocumentXadesInfo();
+	return new DocumentXadesInfo();
     }
 
     /**
@@ -272,7 +272,7 @@ public class ObjectFactory {
      *
      */
     public CloseSignatureSessionResponse createCloseSignatureSessionResponse() {
-        return new CloseSignatureSessionResponse();
+	return new CloseSignatureSessionResponse();
     }
 
     /**
@@ -280,7 +280,7 @@ public class ObjectFactory {
      *
      */
     public SignP7MResponse createSignP7MResponse() {
-        return new SignP7MResponse();
+	return new SignP7MResponse();
     }
 
     /**
@@ -288,7 +288,7 @@ public class ObjectFactory {
      *
      */
     public GetUserImages createGetUserImages() {
-        return new GetUserImages();
+	return new GetUserImages();
     }
 
     /**
@@ -296,7 +296,7 @@ public class ObjectFactory {
      *
      */
     public TimestampAttached createTimestampAttached() {
-        return new TimestampAttached();
+	return new TimestampAttached();
     }
 
     /**
@@ -304,7 +304,7 @@ public class ObjectFactory {
      *
      */
     public SignPKCS1 createSignPKCS1() {
-        return new SignPKCS1();
+	return new SignPKCS1();
     }
 
     /**
@@ -312,7 +312,7 @@ public class ObjectFactory {
      *
      */
     public GetCertificatesResponse createGetCertificatesResponse() {
-        return new GetCertificatesResponse();
+	return new GetCertificatesResponse();
     }
 
     /**
@@ -320,7 +320,7 @@ public class ObjectFactory {
      *
      */
     public VerifySignaturesResponse createVerifySignaturesResponse() {
-        return new VerifySignaturesResponse();
+	return new VerifySignaturesResponse();
     }
 
     /**
@@ -328,7 +328,7 @@ public class ObjectFactory {
      *
      */
     public SignatureStatus createSignatureStatus() {
-        return new SignatureStatus();
+	return new SignatureStatus();
     }
 
     /**
@@ -336,7 +336,7 @@ public class ObjectFactory {
      *
      */
     public IsModuleActiveResponse createIsModuleActiveResponse() {
-        return new IsModuleActiveResponse();
+	return new IsModuleActiveResponse();
     }
 
     /**
@@ -344,7 +344,7 @@ public class ObjectFactory {
      *
      */
     public DeleteUser createDeleteUser() {
-        return new DeleteUser();
+	return new DeleteUser();
     }
 
     /**
@@ -352,7 +352,7 @@ public class ObjectFactory {
      *
      */
     public VerifyCertificateAtTime createVerifyCertificateAtTime() {
-        return new VerifyCertificateAtTime();
+	return new VerifyCertificateAtTime();
     }
 
     /**
@@ -360,7 +360,7 @@ public class ObjectFactory {
      *
      */
     public SignResponse createSignResponse() {
-        return new SignResponse();
+	return new SignResponse();
     }
 
     /**
@@ -368,7 +368,7 @@ public class ObjectFactory {
      *
      */
     public OpenSignatureSessionResponse createOpenSignatureSessionResponse() {
-        return new OpenSignatureSessionResponse();
+	return new OpenSignatureSessionResponse();
     }
 
     /**
@@ -376,7 +376,7 @@ public class ObjectFactory {
      *
      */
     public ChangePasswordResponse createChangePasswordResponse() {
-        return new ChangePasswordResponse();
+	return new ChangePasswordResponse();
     }
 
     /**
@@ -384,7 +384,7 @@ public class ObjectFactory {
      *
      */
     public GetUserImagesResponse createGetUserImagesResponse() {
-        return new GetUserImagesResponse();
+	return new GetUserImagesResponse();
     }
 
     /**
@@ -392,7 +392,7 @@ public class ObjectFactory {
      *
      */
     public SignatureImage createSignatureImage() {
-        return new SignatureImage();
+	return new SignatureImage();
     }
 
     /**
@@ -400,7 +400,7 @@ public class ObjectFactory {
      *
      */
     public SignPKCS1ArrayResponse createSignPKCS1ArrayResponse() {
-        return new SignPKCS1ArrayResponse();
+	return new SignPKCS1ArrayResponse();
     }
 
     /**
@@ -408,7 +408,7 @@ public class ObjectFactory {
      *
      */
     public OpenSignatureSession createOpenSignatureSession() {
-        return new OpenSignatureSession();
+	return new OpenSignatureSession();
     }
 
     /**
@@ -416,7 +416,7 @@ public class ObjectFactory {
      *
      */
     public SignCAdESResponse createSignCAdESResponse() {
-        return new SignCAdESResponse();
+	return new SignCAdESResponse();
     }
 
     /**
@@ -424,7 +424,7 @@ public class ObjectFactory {
      *
      */
     public GetCertificates createGetCertificates() {
-        return new GetCertificates();
+	return new GetCertificates();
     }
 
     /**
@@ -432,7 +432,7 @@ public class ObjectFactory {
      *
      */
     public SetUserImage createSetUserImage() {
-        return new SetUserImage();
+	return new SetUserImage();
     }
 
     /**
@@ -440,7 +440,7 @@ public class ObjectFactory {
      *
      */
     public DocumentP7MInfo createDocumentP7MInfo() {
-        return new DocumentP7MInfo();
+	return new DocumentP7MInfo();
     }
 
     /**
@@ -448,7 +448,7 @@ public class ObjectFactory {
      *
      */
     public VerifyCertificateResponse createVerifyCertificateResponse() {
-        return new VerifyCertificateResponse();
+	return new VerifyCertificateResponse();
     }
 
     /**
@@ -456,7 +456,7 @@ public class ObjectFactory {
      *
      */
     public TimestampDetachedResponse createTimestampDetachedResponse() {
-        return new TimestampDetachedResponse();
+	return new TimestampDetachedResponse();
     }
 
     /**
@@ -464,7 +464,7 @@ public class ObjectFactory {
      *
      */
     public CloseSignatureSession createCloseSignatureSession() {
-        return new CloseSignatureSession();
+	return new CloseSignatureSession();
     }
 
     /**
@@ -472,7 +472,7 @@ public class ObjectFactory {
      *
      */
     public FindUserResponse createFindUserResponse() {
-        return new FindUserResponse();
+	return new FindUserResponse();
     }
 
     /**
@@ -480,7 +480,7 @@ public class ObjectFactory {
      *
      */
     public UserInfo createUserInfo() {
-        return new UserInfo();
+	return new UserInfo();
     }
 
     /**
@@ -488,7 +488,7 @@ public class ObjectFactory {
      *
      */
     public TimestampResponseResponse createTimestampResponseResponse() {
-        return new TimestampResponseResponse();
+	return new TimestampResponseResponse();
     }
 
     /**
@@ -496,7 +496,7 @@ public class ObjectFactory {
      *
      */
     public TimestampAttachedResponse createTimestampAttachedResponse() {
-        return new TimestampAttachedResponse();
+	return new TimestampAttachedResponse();
     }
 
     /**
@@ -504,7 +504,7 @@ public class ObjectFactory {
      *
      */
     public Digest createDigest() {
-        return new Digest();
+	return new Digest();
     }
 
     /**
@@ -512,7 +512,7 @@ public class ObjectFactory {
      *
      */
     public TimestampTokenResponse createTimestampTokenResponse() {
-        return new TimestampTokenResponse();
+	return new TimestampTokenResponse();
     }
 
     /**
@@ -520,7 +520,7 @@ public class ObjectFactory {
      *
      */
     public AddUserResponse createAddUserResponse() {
-        return new AddUserResponse();
+	return new AddUserResponse();
     }
 
     /**
@@ -528,7 +528,7 @@ public class ObjectFactory {
      *
      */
     public SetUserImageResponse createSetUserImageResponse() {
-        return new SetUserImageResponse();
+	return new SetUserImageResponse();
     }
 
     /**
@@ -536,7 +536,7 @@ public class ObjectFactory {
      *
      */
     public TimestampToken createTimestampToken() {
-        return new TimestampToken();
+	return new TimestampToken();
     }
 
     /**
@@ -544,7 +544,7 @@ public class ObjectFactory {
      *
      */
     public SignCAdES createSignCAdES() {
-        return new SignCAdES();
+	return new SignCAdES();
     }
 
     /**
@@ -552,7 +552,7 @@ public class ObjectFactory {
      *
      */
     public RemoteSignatureException createRemoteSignatureException() {
-        return new RemoteSignatureException();
+	return new RemoteSignatureException();
     }
 
     /**
@@ -560,7 +560,7 @@ public class ObjectFactory {
      *
      */
     public GetUsersDirectoryTypeResponse createGetUsersDirectoryTypeResponse() {
-        return new GetUsersDirectoryTypeResponse();
+	return new GetUsersDirectoryTypeResponse();
     }
 
     /**
@@ -568,7 +568,7 @@ public class ObjectFactory {
      *
      */
     public ChangePassword createChangePassword() {
-        return new ChangePassword();
+	return new ChangePassword();
     }
 
     /**
@@ -576,7 +576,7 @@ public class ObjectFactory {
      *
      */
     public SignXAdESResponse createSignXAdESResponse() {
-        return new SignXAdESResponse();
+	return new SignXAdESResponse();
     }
 
     /**
@@ -584,7 +584,7 @@ public class ObjectFactory {
      *
      */
     public TimestampResponse createTimestampResponse() {
-        return new TimestampResponse();
+	return new TimestampResponse();
     }
 
     /**
@@ -592,7 +592,7 @@ public class ObjectFactory {
      *
      */
     public GetUsersDirectoryType createGetUsersDirectoryType() {
-        return new GetUsersDirectoryType();
+	return new GetUsersDirectoryType();
     }
 
     /**
@@ -600,7 +600,7 @@ public class ObjectFactory {
      *
      */
     public DocumentPdfInfo createDocumentPdfInfo() {
-        return new DocumentPdfInfo();
+	return new DocumentPdfInfo();
     }
 
     /**
@@ -608,7 +608,7 @@ public class ObjectFactory {
      *
      */
     public DocumentPdfInfoResponse createDocumentPdfInfoResponse() {
-        return new DocumentPdfInfoResponse();
+	return new DocumentPdfInfoResponse();
     }
 
     /**
@@ -616,7 +616,7 @@ public class ObjectFactory {
      *
      */
     public DeleteUserResponse createDeleteUserResponse() {
-        return new DeleteUserResponse();
+	return new DeleteUserResponse();
     }
 
     /**
@@ -624,7 +624,7 @@ public class ObjectFactory {
      *
      */
     public ArrayOfSignatureStatus createArrayOfSignatureStatus() {
-        return new ArrayOfSignatureStatus();
+	return new ArrayOfSignatureStatus();
     }
 
     /**
@@ -632,7 +632,7 @@ public class ObjectFactory {
      *
      */
     public ArrayOfPosition createArrayOfPosition() {
-        return new ArrayOfPosition();
+	return new ArrayOfPosition();
     }
 
     /**
@@ -640,7 +640,7 @@ public class ObjectFactory {
      *
      */
     public SignatureField createSignatureField() {
-        return new SignatureField();
+	return new SignatureField();
     }
 
     /**
@@ -648,7 +648,7 @@ public class ObjectFactory {
      *
      */
     public ArrayOfSignature createArrayOfSignature() {
-        return new ArrayOfSignature();
+	return new ArrayOfSignature();
     }
 
     /**
@@ -656,7 +656,7 @@ public class ObjectFactory {
      *
      */
     public Signature createSignature() {
-        return new Signature();
+	return new Signature();
     }
 
     /**
@@ -664,7 +664,7 @@ public class ObjectFactory {
      *
      */
     public ArrayOfString createArrayOfString() {
-        return new ArrayOfString();
+	return new ArrayOfString();
     }
 
     /**
@@ -672,7 +672,7 @@ public class ObjectFactory {
      *
      */
     public ClientCertificateAuth createClientCertificateAuth() {
-        return new ClientCertificateAuth();
+	return new ClientCertificateAuth();
     }
 
     /**
@@ -680,7 +680,7 @@ public class ObjectFactory {
      *
      */
     public Signatures createSignatures() {
-        return new Signatures();
+	return new Signatures();
     }
 
     /**
@@ -689,7 +689,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "signResponse")
     public JAXBElement<SignResponse> createSignResponse(SignResponse value) {
-        return new JAXBElement<SignResponse>(_SignResponse_QNAME, SignResponse.class, null, value);
+	return new JAXBElement<SignResponse>(_SignResponse_QNAME, SignResponse.class, null, value);
     }
 
     /**
@@ -698,16 +698,18 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "sign")
     public JAXBElement<Sign> createSign(Sign value) {
-        return new JAXBElement<Sign>(_Sign_QNAME, Sign.class, null, value);
+	return new JAXBElement<Sign>(_Sign_QNAME, Sign.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link RemoteSignatureException }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link RemoteSignatureException
+     * }{@code >}}
      *
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "fault")
     public JAXBElement<RemoteSignatureException> createFault(RemoteSignatureException value) {
-        return new JAXBElement<RemoteSignatureException>(_Fault_QNAME, RemoteSignatureException.class, null, value);
+	return new JAXBElement<RemoteSignatureException>(_Fault_QNAME,
+		RemoteSignatureException.class, null, value);
     }
 
     /**
@@ -716,7 +718,8 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "content", scope = Sign.class)
     public JAXBElement<byte[]> createSignContent(byte[] value) {
-        return new JAXBElement<byte[]>(_SignContent_QNAME, byte[].class, Sign.class, ((byte[]) value));
+	return new JAXBElement<byte[]>(_SignContent_QNAME, byte[].class, Sign.class,
+		((byte[]) value));
     }
 
     /**
@@ -725,7 +728,8 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "certificate", scope = Sign.class)
     public JAXBElement<byte[]> createSignCertificate(byte[] value) {
-        return new JAXBElement<byte[]>(_SignCertificate_QNAME, byte[].class, Sign.class, ((byte[]) value));
+	return new JAXBElement<byte[]>(_SignCertificate_QNAME, byte[].class, Sign.class,
+		((byte[]) value));
     }
 
     /**
@@ -734,8 +738,8 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.firmaremota.itagile.it", name = "signReturn", scope = SignResponse.class)
     public JAXBElement<byte[]> createSignResponseSignReturn(byte[] value) {
-        return new JAXBElement<byte[]>(_SignResponseSignReturn_QNAME, byte[].class, SignResponse.class,
-                ((byte[]) value));
+	return new JAXBElement<byte[]>(_SignResponseSignReturn_QNAME, byte[].class,
+		SignResponse.class, ((byte[]) value));
     }
 
 }

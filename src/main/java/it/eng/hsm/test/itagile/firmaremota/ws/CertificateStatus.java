@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -51,9 +47,10 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "CertificateStatus", propOrder = { "certificate", "checkTime", "invalidCertificateMessage",
-        "invalidCertificateCode", "trustedIdentity", "untrustedIdentityMessage", "untrustedIdentityCode",
-        "validCertificate" })
+@XmlType(name = "CertificateStatus", propOrder = {
+	"certificate", "checkTime", "invalidCertificateMessage", "invalidCertificateCode",
+	"trustedIdentity", "untrustedIdentityMessage", "untrustedIdentityCode",
+	"validCertificate" })
 public class CertificateStatus {
 
     @XmlElement(required = true, nillable = true)
@@ -76,17 +73,16 @@ public class CertificateStatus {
      * @return possible object is byte[]
      */
     public byte[] getCertificate() {
-        return certificate;
+	return certificate;
     }
 
     /**
      * Sets the value of the certificate property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setCertificate(byte[] value) {
-        this.certificate = value;
+	this.certificate = value;
     }
 
     /**
@@ -94,7 +90,7 @@ public class CertificateStatus {
      *
      */
     public long getCheckTime() {
-        return checkTime;
+	return checkTime;
     }
 
     /**
@@ -102,7 +98,7 @@ public class CertificateStatus {
      *
      */
     public void setCheckTime(long value) {
-        this.checkTime = value;
+	this.checkTime = value;
     }
 
     /**
@@ -112,18 +108,17 @@ public class CertificateStatus {
      *
      */
     public String getInvalidCertificateMessage() {
-        return invalidCertificateMessage;
+	return invalidCertificateMessage;
     }
 
     /**
      * Sets the value of the invalidCertificateMessage property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setInvalidCertificateMessage(String value) {
-        this.invalidCertificateMessage = value;
+	this.invalidCertificateMessage = value;
     }
 
     /**
@@ -133,18 +128,17 @@ public class CertificateStatus {
      *
      */
     public String getInvalidCertificateCode() {
-        return invalidCertificateCode;
+	return invalidCertificateCode;
     }
 
     /**
      * Sets the value of the invalidCertificateCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setInvalidCertificateCode(String value) {
-        this.invalidCertificateCode = value;
+	this.invalidCertificateCode = value;
     }
 
     /**
@@ -152,7 +146,7 @@ public class CertificateStatus {
      *
      */
     public boolean isTrustedIdentity() {
-        return trustedIdentity;
+	return trustedIdentity;
     }
 
     /**
@@ -160,7 +154,7 @@ public class CertificateStatus {
      *
      */
     public void setTrustedIdentity(boolean value) {
-        this.trustedIdentity = value;
+	this.trustedIdentity = value;
     }
 
     /**
@@ -170,18 +164,17 @@ public class CertificateStatus {
      *
      */
     public String getUntrustedIdentityMessage() {
-        return untrustedIdentityMessage;
+	return untrustedIdentityMessage;
     }
 
     /**
      * Sets the value of the untrustedIdentityMessage property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUntrustedIdentityMessage(String value) {
-        this.untrustedIdentityMessage = value;
+	this.untrustedIdentityMessage = value;
     }
 
     /**
@@ -191,18 +184,17 @@ public class CertificateStatus {
      *
      */
     public String getUntrustedIdentityCode() {
-        return untrustedIdentityCode;
+	return untrustedIdentityCode;
     }
 
     /**
      * Sets the value of the untrustedIdentityCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUntrustedIdentityCode(String value) {
-        this.untrustedIdentityCode = value;
+	this.untrustedIdentityCode = value;
     }
 
     /**
@@ -210,7 +202,7 @@ public class CertificateStatus {
      *
      */
     public boolean isValidCertificate() {
-        return validCertificate;
+	return validCertificate;
     }
 
     /**
@@ -218,6 +210,6 @@ public class CertificateStatus {
      *
      */
     public void setValidCertificate(boolean value) {
-        this.validCertificate = value;
+	this.validCertificate = value;
     }
 }

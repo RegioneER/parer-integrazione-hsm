@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -48,8 +44,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "RemoteSignatureCredentials", propOrder = { "clientCertificateAuth", "extAuth", "password", "userid",
-        "oneshot" })
+@XmlType(name = "RemoteSignatureCredentials", propOrder = {
+	"clientCertificateAuth", "extAuth", "password", "userid", "oneshot" })
 public class RemoteSignatureCredentials {
 
     @XmlElement(required = true, nillable = true)
@@ -69,18 +65,17 @@ public class RemoteSignatureCredentials {
      *
      */
     public ClientCertificateAuth getClientCertificateAuth() {
-        return clientCertificateAuth;
+	return clientCertificateAuth;
     }
 
     /**
      * Sets the value of the clientCertificateAuth property.
      *
-     * @param value
-     *            allowed object is {@link ClientCertificateAuth }
+     * @param value allowed object is {@link ClientCertificateAuth }
      *
      */
     public void setClientCertificateAuth(ClientCertificateAuth value) {
-        this.clientCertificateAuth = value;
+	this.clientCertificateAuth = value;
     }
 
     /**
@@ -90,18 +85,17 @@ public class RemoteSignatureCredentials {
      *
      */
     public String getExtAuth() {
-        return extAuth;
+	return extAuth;
     }
 
     /**
      * Sets the value of the extAuth property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setExtAuth(String value) {
-        this.extAuth = value;
+	this.extAuth = value;
     }
 
     /**
@@ -111,18 +105,17 @@ public class RemoteSignatureCredentials {
      *
      */
     public String getPassword() {
-        return password;
+	return password;
     }
 
     /**
      * Sets the value of the password property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setPassword(String value) {
-        this.password = value;
+	this.password = value;
     }
 
     /**
@@ -132,18 +125,17 @@ public class RemoteSignatureCredentials {
      *
      */
     public String getUserid() {
-        return userid;
+	return userid;
     }
 
     /**
      * Sets the value of the userid property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUserid(String value) {
-        this.userid = value;
+	this.userid = value;
     }
 
     /**
@@ -151,7 +143,7 @@ public class RemoteSignatureCredentials {
      *
      */
     public boolean isOneshot() {
-        return oneshot;
+	return oneshot;
     }
 
     /**
@@ -159,6 +151,6 @@ public class RemoteSignatureCredentials {
      *
      */
     public void setOneshot(boolean value) {
-        this.oneshot = value;
+	this.oneshot = value;
     }
 }

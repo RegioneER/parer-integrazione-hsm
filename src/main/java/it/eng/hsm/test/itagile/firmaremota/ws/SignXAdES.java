@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -49,7 +45,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "cred", "content", "digestType", "certificate", "params" })
+@XmlType(name = "", propOrder = {
+	"cred", "content", "digestType", "certificate", "params" })
 @XmlRootElement(name = "signXAdES")
 public class SignXAdES {
 
@@ -71,18 +68,17 @@ public class SignXAdES {
      *
      */
     public RemoteSignatureCredentials getCred() {
-        return cred;
+	return cred;
     }
 
     /**
      * Sets the value of the cred property.
      *
-     * @param value
-     *            allowed object is {@link RemoteSignatureCredentials }
+     * @param value allowed object is {@link RemoteSignatureCredentials }
      *
      */
     public void setCred(RemoteSignatureCredentials value) {
-        this.cred = value;
+	this.cred = value;
     }
 
     /**
@@ -91,17 +87,16 @@ public class SignXAdES {
      * @return possible object is byte[]
      */
     public byte[] getContent() {
-        return content;
+	return content;
     }
 
     /**
      * Sets the value of the content property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setContent(byte[] value) {
-        this.content = value;
+	this.content = value;
     }
 
     /**
@@ -111,18 +106,17 @@ public class SignXAdES {
      *
      */
     public String getDigestType() {
-        return digestType;
+	return digestType;
     }
 
     /**
      * Sets the value of the digestType property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDigestType(String value) {
-        this.digestType = value;
+	this.digestType = value;
     }
 
     /**
@@ -131,17 +125,16 @@ public class SignXAdES {
      * @return possible object is byte[]
      */
     public byte[] getCertificate() {
-        return certificate;
+	return certificate;
     }
 
     /**
      * Sets the value of the certificate property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setCertificate(byte[] value) {
-        this.certificate = value;
+	this.certificate = value;
     }
 
     /**
@@ -151,17 +144,16 @@ public class SignXAdES {
      *
      */
     public RemoteSignatureXadesParams getParams() {
-        return params;
+	return params;
     }
 
     /**
      * Sets the value of the params property.
      *
-     * @param value
-     *            allowed object is {@link RemoteSignatureXadesParams }
+     * @param value allowed object is {@link RemoteSignatureXadesParams }
      *
      */
     public void setParams(RemoteSignatureXadesParams value) {
-        this.params = value;
+	this.params = value;
     }
 }
