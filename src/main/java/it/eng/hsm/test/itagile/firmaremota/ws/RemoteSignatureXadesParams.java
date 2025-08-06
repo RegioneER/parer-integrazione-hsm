@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -49,8 +45,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "RemoteSignatureXadesParams", propOrder = { "detachedReferenceURI", "elemenXPath", "form",
-        "signatureId", "type", "validationData" })
+@XmlType(name = "RemoteSignatureXadesParams", propOrder = {
+	"detachedReferenceURI", "elemenXPath", "form", "signatureId", "type", "validationData" })
 public class RemoteSignatureXadesParams {
 
     @XmlElement(required = true, nillable = true)
@@ -73,18 +69,17 @@ public class RemoteSignatureXadesParams {
      *
      */
     public String getDetachedReferenceURI() {
-        return detachedReferenceURI;
+	return detachedReferenceURI;
     }
 
     /**
      * Sets the value of the detachedReferenceURI property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDetachedReferenceURI(String value) {
-        this.detachedReferenceURI = value;
+	this.detachedReferenceURI = value;
     }
 
     /**
@@ -94,18 +89,17 @@ public class RemoteSignatureXadesParams {
      *
      */
     public String getElemenXPath() {
-        return elemenXPath;
+	return elemenXPath;
     }
 
     /**
      * Sets the value of the elemenXPath property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setElemenXPath(String value) {
-        this.elemenXPath = value;
+	this.elemenXPath = value;
     }
 
     /**
@@ -115,18 +109,17 @@ public class RemoteSignatureXadesParams {
      *
      */
     public String getForm() {
-        return form;
+	return form;
     }
 
     /**
      * Sets the value of the form property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setForm(String value) {
-        this.form = value;
+	this.form = value;
     }
 
     /**
@@ -136,18 +129,17 @@ public class RemoteSignatureXadesParams {
      *
      */
     public String getSignatureId() {
-        return signatureId;
+	return signatureId;
     }
 
     /**
      * Sets the value of the signatureId property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setSignatureId(String value) {
-        this.signatureId = value;
+	this.signatureId = value;
     }
 
     /**
@@ -157,18 +149,17 @@ public class RemoteSignatureXadesParams {
      *
      */
     public String getType() {
-        return type;
+	return type;
     }
 
     /**
      * Sets the value of the type property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setType(String value) {
-        this.type = value;
+	this.type = value;
     }
 
     /**
@@ -178,17 +169,16 @@ public class RemoteSignatureXadesParams {
      *
      */
     public String getValidationData() {
-        return validationData;
+	return validationData;
     }
 
     /**
      * Sets the value of the validationData property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setValidationData(String value) {
-        this.validationData = value;
+	this.validationData = value;
     }
 }

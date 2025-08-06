@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.prod.itagile.firmaremota.ws;
@@ -48,7 +44,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "cred", "content", "contentInAttachment", "digestAlg" })
+@XmlType(name = "", propOrder = {
+	"cred", "content", "contentInAttachment", "digestAlg" })
 @XmlRootElement(name = "timestampAttached")
 public class TimestampAttached {
 
@@ -67,18 +64,17 @@ public class TimestampAttached {
      *
      */
     public RemoteSignatureCredentials getCred() {
-        return cred;
+	return cred;
     }
 
     /**
      * Sets the value of the cred property.
      *
-     * @param value
-     *            allowed object is {@link RemoteSignatureCredentials }
+     * @param value allowed object is {@link RemoteSignatureCredentials }
      *
      */
     public void setCred(RemoteSignatureCredentials value) {
-        this.cred = value;
+	this.cred = value;
     }
 
     /**
@@ -87,17 +83,16 @@ public class TimestampAttached {
      * @return possible object is byte[]
      */
     public byte[] getContent() {
-        return content;
+	return content;
     }
 
     /**
      * Sets the value of the content property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setContent(byte[] value) {
-        this.content = value;
+	this.content = value;
     }
 
     /**
@@ -105,7 +100,7 @@ public class TimestampAttached {
      *
      */
     public boolean isContentInAttachment() {
-        return contentInAttachment;
+	return contentInAttachment;
     }
 
     /**
@@ -113,7 +108,7 @@ public class TimestampAttached {
      *
      */
     public void setContentInAttachment(boolean value) {
-        this.contentInAttachment = value;
+	this.contentInAttachment = value;
     }
 
     /**
@@ -123,17 +118,16 @@ public class TimestampAttached {
      *
      */
     public String getDigestAlg() {
-        return digestAlg;
+	return digestAlg;
     }
 
     /**
      * Sets the value of the digestAlg property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDigestAlg(String value) {
-        this.digestAlg = value;
+	this.digestAlg = value;
     }
 }

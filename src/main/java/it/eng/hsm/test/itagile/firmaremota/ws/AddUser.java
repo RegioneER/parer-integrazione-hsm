@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -51,7 +47,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "cred", "userid", "password", "commonName", "email", "hsmManager", "userManager" })
+@XmlType(name = "", propOrder = {
+	"cred", "userid", "password", "commonName", "email", "hsmManager", "userManager" })
 @XmlRootElement(name = "addUser")
 public class AddUser {
 
@@ -75,18 +72,17 @@ public class AddUser {
      *
      */
     public RemoteSignatureCredentials getCred() {
-        return cred;
+	return cred;
     }
 
     /**
      * Sets the value of the cred property.
      *
-     * @param value
-     *            allowed object is {@link RemoteSignatureCredentials }
+     * @param value allowed object is {@link RemoteSignatureCredentials }
      *
      */
     public void setCred(RemoteSignatureCredentials value) {
-        this.cred = value;
+	this.cred = value;
     }
 
     /**
@@ -96,18 +92,17 @@ public class AddUser {
      *
      */
     public String getUserid() {
-        return userid;
+	return userid;
     }
 
     /**
      * Sets the value of the userid property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUserid(String value) {
-        this.userid = value;
+	this.userid = value;
     }
 
     /**
@@ -117,18 +112,17 @@ public class AddUser {
      *
      */
     public String getPassword() {
-        return password;
+	return password;
     }
 
     /**
      * Sets the value of the password property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setPassword(String value) {
-        this.password = value;
+	this.password = value;
     }
 
     /**
@@ -138,18 +132,17 @@ public class AddUser {
      *
      */
     public String getCommonName() {
-        return commonName;
+	return commonName;
     }
 
     /**
      * Sets the value of the commonName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCommonName(String value) {
-        this.commonName = value;
+	this.commonName = value;
     }
 
     /**
@@ -159,18 +152,17 @@ public class AddUser {
      *
      */
     public String getEmail() {
-        return email;
+	return email;
     }
 
     /**
      * Sets the value of the email property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setEmail(String value) {
-        this.email = value;
+	this.email = value;
     }
 
     /**
@@ -178,7 +170,7 @@ public class AddUser {
      *
      */
     public boolean isHsmManager() {
-        return hsmManager;
+	return hsmManager;
     }
 
     /**
@@ -186,7 +178,7 @@ public class AddUser {
      *
      */
     public void setHsmManager(boolean value) {
-        this.hsmManager = value;
+	this.hsmManager = value;
     }
 
     /**
@@ -194,7 +186,7 @@ public class AddUser {
      *
      */
     public boolean isUserManager() {
-        return userManager;
+	return userManager;
     }
 
     /**
@@ -202,6 +194,6 @@ public class AddUser {
      *
      */
     public void setUserManager(boolean value) {
-        this.userManager = value;
+	this.userManager = value;
     }
 }

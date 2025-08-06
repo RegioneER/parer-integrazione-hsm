@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -53,9 +49,10 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "SignatureFlags", propOrder = { "counterSignaturePath", "graphicalSignature", "ocsp", "timestamp",
-        "cosignCoordinates", "timestampCode", "pdfSignatureLayout", "password", "pdfSignatureCertificationLevel",
-        "cadesDetached" })
+@XmlType(name = "SignatureFlags", propOrder = {
+	"counterSignaturePath", "graphicalSignature", "ocsp", "timestamp", "cosignCoordinates",
+	"timestampCode", "pdfSignatureLayout", "password", "pdfSignatureCertificationLevel",
+	"cadesDetached" })
 public class SignatureFlags {
 
     @XmlElement(required = true, nillable = true)
@@ -79,18 +76,17 @@ public class SignatureFlags {
      *
      */
     public String getCounterSignaturePath() {
-        return counterSignaturePath;
+	return counterSignaturePath;
     }
 
     /**
      * Sets the value of the counterSignaturePath property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setCounterSignaturePath(String value) {
-        this.counterSignaturePath = value;
+	this.counterSignaturePath = value;
     }
 
     /**
@@ -98,7 +94,7 @@ public class SignatureFlags {
      *
      */
     public boolean isGraphicalSignature() {
-        return graphicalSignature;
+	return graphicalSignature;
     }
 
     /**
@@ -106,7 +102,7 @@ public class SignatureFlags {
      *
      */
     public void setGraphicalSignature(boolean value) {
-        this.graphicalSignature = value;
+	this.graphicalSignature = value;
     }
 
     /**
@@ -114,7 +110,7 @@ public class SignatureFlags {
      *
      */
     public boolean isOcsp() {
-        return ocsp;
+	return ocsp;
     }
 
     /**
@@ -122,7 +118,7 @@ public class SignatureFlags {
      *
      */
     public void setOcsp(boolean value) {
-        this.ocsp = value;
+	this.ocsp = value;
     }
 
     /**
@@ -130,7 +126,7 @@ public class SignatureFlags {
      *
      */
     public boolean isTimestamp() {
-        return timestamp;
+	return timestamp;
     }
 
     /**
@@ -138,7 +134,7 @@ public class SignatureFlags {
      *
      */
     public void setTimestamp(boolean value) {
-        this.timestamp = value;
+	this.timestamp = value;
     }
 
     /**
@@ -146,7 +142,7 @@ public class SignatureFlags {
      *
      */
     public boolean isCosignCoordinates() {
-        return cosignCoordinates;
+	return cosignCoordinates;
     }
 
     /**
@@ -154,7 +150,7 @@ public class SignatureFlags {
      *
      */
     public void setCosignCoordinates(boolean value) {
-        this.cosignCoordinates = value;
+	this.cosignCoordinates = value;
     }
 
     /**
@@ -164,18 +160,17 @@ public class SignatureFlags {
      *
      */
     public String getTimestampCode() {
-        return timestampCode;
+	return timestampCode;
     }
 
     /**
      * Sets the value of the timestampCode property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setTimestampCode(String value) {
-        this.timestampCode = value;
+	this.timestampCode = value;
     }
 
     /**
@@ -183,7 +178,7 @@ public class SignatureFlags {
      *
      */
     public int getPdfSignatureLayout() {
-        return pdfSignatureLayout;
+	return pdfSignatureLayout;
     }
 
     /**
@@ -191,7 +186,7 @@ public class SignatureFlags {
      *
      */
     public void setPdfSignatureLayout(int value) {
-        this.pdfSignatureLayout = value;
+	this.pdfSignatureLayout = value;
     }
 
     /**
@@ -201,18 +196,17 @@ public class SignatureFlags {
      *
      */
     public String getPassword() {
-        return password;
+	return password;
     }
 
     /**
      * Sets the value of the password property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setPassword(String value) {
-        this.password = value;
+	this.password = value;
     }
 
     /**
@@ -220,7 +214,7 @@ public class SignatureFlags {
      *
      */
     public int getPdfSignatureCertificationLevel() {
-        return pdfSignatureCertificationLevel;
+	return pdfSignatureCertificationLevel;
     }
 
     /**
@@ -228,7 +222,7 @@ public class SignatureFlags {
      *
      */
     public void setPdfSignatureCertificationLevel(int value) {
-        this.pdfSignatureCertificationLevel = value;
+	this.pdfSignatureCertificationLevel = value;
     }
 
     /**
@@ -236,7 +230,7 @@ public class SignatureFlags {
      *
      */
     public boolean isCadesDetached() {
-        return cadesDetached;
+	return cadesDetached;
     }
 
     /**
@@ -244,6 +238,6 @@ public class SignatureFlags {
      *
      */
     public void setCadesDetached(boolean value) {
-        this.cadesDetached = value;
+	this.cadesDetached = value;
     }
 }

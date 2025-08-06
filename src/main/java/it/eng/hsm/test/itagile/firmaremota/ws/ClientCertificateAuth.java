@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -46,7 +42,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ClientCertificateAuth", propOrder = { "certificate", "signature", "timestamp" })
+@XmlType(name = "ClientCertificateAuth", propOrder = {
+	"certificate", "signature", "timestamp" })
 public class ClientCertificateAuth {
 
     @XmlElement(required = true, nillable = true)
@@ -62,17 +59,16 @@ public class ClientCertificateAuth {
      * @return possible object is byte[]
      */
     public byte[] getCertificate() {
-        return certificate;
+	return certificate;
     }
 
     /**
      * Sets the value of the certificate property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setCertificate(byte[] value) {
-        this.certificate = value;
+	this.certificate = value;
     }
 
     /**
@@ -81,17 +77,16 @@ public class ClientCertificateAuth {
      * @return possible object is byte[]
      */
     public byte[] getSignature() {
-        return signature;
+	return signature;
     }
 
     /**
      * Sets the value of the signature property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setSignature(byte[] value) {
-        this.signature = value;
+	this.signature = value;
     }
 
     /**
@@ -100,16 +95,15 @@ public class ClientCertificateAuth {
      * @return possible object is byte[]
      */
     public byte[] getTimestamp() {
-        return timestamp;
+	return timestamp;
     }
 
     /**
      * Sets the value of the timestamp property.
      *
-     * @param value
-     *            allowed object is byte[]
+     * @param value allowed object is byte[]
      */
     public void setTimestamp(byte[] value) {
-        this.timestamp = value;
+	this.timestamp = value;
     }
 }

@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -63,9 +59,10 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "userid", "password", "pinToSign", "domain", "dirSource", "dirDest", "fieldName",
-        "page", "x", "y", "width", "height", "userName", "reason", "location", "dateFormat", "graphic", "text",
-        "fontSize" })
+@XmlType(name = "", propOrder = {
+	"userid", "password", "pinToSign", "domain", "dirSource", "dirDest", "fieldName", "page",
+	"x", "y", "width", "height", "userName", "reason", "location", "dateFormat", "graphic",
+	"text", "fontSize" })
 @XmlRootElement(name = "signPDFPath")
 public class SignPDFPath {
 
@@ -108,18 +105,17 @@ public class SignPDFPath {
      *
      */
     public String getUserid() {
-        return userid;
+	return userid;
     }
 
     /**
      * Sets the value of the userid property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUserid(String value) {
-        this.userid = value;
+	this.userid = value;
     }
 
     /**
@@ -129,18 +125,17 @@ public class SignPDFPath {
      *
      */
     public String getPassword() {
-        return password;
+	return password;
     }
 
     /**
      * Sets the value of the password property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setPassword(String value) {
-        this.password = value;
+	this.password = value;
     }
 
     /**
@@ -150,18 +145,17 @@ public class SignPDFPath {
      *
      */
     public String getPinToSign() {
-        return pinToSign;
+	return pinToSign;
     }
 
     /**
      * Sets the value of the pinToSign property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setPinToSign(String value) {
-        this.pinToSign = value;
+	this.pinToSign = value;
     }
 
     /**
@@ -171,18 +165,17 @@ public class SignPDFPath {
      *
      */
     public String getDomain() {
-        return domain;
+	return domain;
     }
 
     /**
      * Sets the value of the domain property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDomain(String value) {
-        this.domain = value;
+	this.domain = value;
     }
 
     /**
@@ -192,18 +185,17 @@ public class SignPDFPath {
      *
      */
     public String getDirSource() {
-        return dirSource;
+	return dirSource;
     }
 
     /**
      * Sets the value of the dirSource property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDirSource(String value) {
-        this.dirSource = value;
+	this.dirSource = value;
     }
 
     /**
@@ -213,18 +205,17 @@ public class SignPDFPath {
      *
      */
     public String getDirDest() {
-        return dirDest;
+	return dirDest;
     }
 
     /**
      * Sets the value of the dirDest property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDirDest(String value) {
-        this.dirDest = value;
+	this.dirDest = value;
     }
 
     /**
@@ -234,18 +225,17 @@ public class SignPDFPath {
      *
      */
     public String getFieldName() {
-        return fieldName;
+	return fieldName;
     }
 
     /**
      * Sets the value of the fieldName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setFieldName(String value) {
-        this.fieldName = value;
+	this.fieldName = value;
     }
 
     /**
@@ -253,7 +243,7 @@ public class SignPDFPath {
      *
      */
     public int getPage() {
-        return page;
+	return page;
     }
 
     /**
@@ -261,7 +251,7 @@ public class SignPDFPath {
      *
      */
     public void setPage(int value) {
-        this.page = value;
+	this.page = value;
     }
 
     /**
@@ -269,7 +259,7 @@ public class SignPDFPath {
      *
      */
     public int getX() {
-        return x;
+	return x;
     }
 
     /**
@@ -277,7 +267,7 @@ public class SignPDFPath {
      *
      */
     public void setX(int value) {
-        this.x = value;
+	this.x = value;
     }
 
     /**
@@ -285,7 +275,7 @@ public class SignPDFPath {
      *
      */
     public int getY() {
-        return y;
+	return y;
     }
 
     /**
@@ -293,7 +283,7 @@ public class SignPDFPath {
      *
      */
     public void setY(int value) {
-        this.y = value;
+	this.y = value;
     }
 
     /**
@@ -301,7 +291,7 @@ public class SignPDFPath {
      *
      */
     public int getWidth() {
-        return width;
+	return width;
     }
 
     /**
@@ -309,7 +299,7 @@ public class SignPDFPath {
      *
      */
     public void setWidth(int value) {
-        this.width = value;
+	this.width = value;
     }
 
     /**
@@ -317,7 +307,7 @@ public class SignPDFPath {
      *
      */
     public int getHeight() {
-        return height;
+	return height;
     }
 
     /**
@@ -325,7 +315,7 @@ public class SignPDFPath {
      *
      */
     public void setHeight(int value) {
-        this.height = value;
+	this.height = value;
     }
 
     /**
@@ -335,18 +325,17 @@ public class SignPDFPath {
      *
      */
     public String getUserName() {
-        return userName;
+	return userName;
     }
 
     /**
      * Sets the value of the userName property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setUserName(String value) {
-        this.userName = value;
+	this.userName = value;
     }
 
     /**
@@ -356,18 +345,17 @@ public class SignPDFPath {
      *
      */
     public String getReason() {
-        return reason;
+	return reason;
     }
 
     /**
      * Sets the value of the reason property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setReason(String value) {
-        this.reason = value;
+	this.reason = value;
     }
 
     /**
@@ -377,18 +365,17 @@ public class SignPDFPath {
      *
      */
     public String getLocation() {
-        return location;
+	return location;
     }
 
     /**
      * Sets the value of the location property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setLocation(String value) {
-        this.location = value;
+	this.location = value;
     }
 
     /**
@@ -398,18 +385,17 @@ public class SignPDFPath {
      *
      */
     public String getDateFormat() {
-        return dateFormat;
+	return dateFormat;
     }
 
     /**
      * Sets the value of the dateFormat property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setDateFormat(String value) {
-        this.dateFormat = value;
+	this.dateFormat = value;
     }
 
     /**
@@ -417,7 +403,7 @@ public class SignPDFPath {
      *
      */
     public boolean isGraphic() {
-        return graphic;
+	return graphic;
     }
 
     /**
@@ -425,7 +411,7 @@ public class SignPDFPath {
      *
      */
     public void setGraphic(boolean value) {
-        this.graphic = value;
+	this.graphic = value;
     }
 
     /**
@@ -435,18 +421,17 @@ public class SignPDFPath {
      *
      */
     public String getText() {
-        return text;
+	return text;
     }
 
     /**
      * Sets the value of the text property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setText(String value) {
-        this.text = value;
+	this.text = value;
     }
 
     /**
@@ -454,7 +439,7 @@ public class SignPDFPath {
      *
      */
     public int getFontSize() {
-        return fontSize;
+	return fontSize;
     }
 
     /**
@@ -462,6 +447,6 @@ public class SignPDFPath {
      *
      */
     public void setFontSize(int value) {
-        this.fontSize = value;
+	this.fontSize = value;
     }
 }

@@ -1,18 +1,14 @@
 /*
  * Engineering Ingegneria Informatica S.p.A.
  *
- * Copyright (C) 2023 Regione Emilia-Romagna
- * <p/>
- * This program is free software: you can redistribute it and/or modify it under the terms of
- * the GNU Affero General Public License as published by the Free Software Foundation,
- * either version 3 of the License, or (at your option) any later version.
- * <p/>
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU Affero General Public License for more details.
- * <p/>
- * You should have received a copy of the GNU Affero General Public License along with this program.
- * If not, see <https://www.gnu.org/licenses/>.
+ * Copyright (C) 2023 Regione Emilia-Romagna <p/> This program is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the License, or (at your option)
+ * any later version. <p/> This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <p/> You should
+ * have received a copy of the GNU Affero General Public License along with this program. If not,
+ * see <https://www.gnu.org/licenses/>.
  */
 
 package it.eng.hsm.test.itagile.firmaremota.ws;
@@ -52,8 +48,8 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "SignatureField", propOrder = { "name", "signed", "page", "position", "pageH", "visible", "signer",
-        "location", "reason" })
+@XmlType(name = "SignatureField", propOrder = {
+	"name", "signed", "page", "position", "pageH", "visible", "signer", "location", "reason" })
 public class SignatureField {
 
     @XmlElement(required = true, nillable = true)
@@ -82,18 +78,17 @@ public class SignatureField {
      *
      */
     public String getName() {
-        return name;
+	return name;
     }
 
     /**
      * Sets the value of the name property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setName(String value) {
-        this.name = value;
+	this.name = value;
     }
 
     /**
@@ -103,18 +98,17 @@ public class SignatureField {
      *
      */
     public Boolean isSigned() {
-        return signed;
+	return signed;
     }
 
     /**
      * Sets the value of the signed property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setSigned(Boolean value) {
-        this.signed = value;
+	this.signed = value;
     }
 
     /**
@@ -124,18 +118,17 @@ public class SignatureField {
      *
      */
     public Integer getPage() {
-        return page;
+	return page;
     }
 
     /**
      * Sets the value of the page property.
      *
-     * @param value
-     *            allowed object is {@link Integer }
+     * @param value allowed object is {@link Integer }
      *
      */
     public void setPage(Integer value) {
-        this.page = value;
+	this.page = value;
     }
 
     /**
@@ -145,18 +138,17 @@ public class SignatureField {
      *
      */
     public ArrayOfPosition getPosition() {
-        return position;
+	return position;
     }
 
     /**
      * Sets the value of the position property.
      *
-     * @param value
-     *            allowed object is {@link ArrayOfPosition }
+     * @param value allowed object is {@link ArrayOfPosition }
      *
      */
     public void setPosition(ArrayOfPosition value) {
-        this.position = value;
+	this.position = value;
     }
 
     /**
@@ -166,18 +158,17 @@ public class SignatureField {
      *
      */
     public Integer getPageH() {
-        return pageH;
+	return pageH;
     }
 
     /**
      * Sets the value of the pageH property.
      *
-     * @param value
-     *            allowed object is {@link Integer }
+     * @param value allowed object is {@link Integer }
      *
      */
     public void setPageH(Integer value) {
-        this.pageH = value;
+	this.pageH = value;
     }
 
     /**
@@ -187,18 +178,17 @@ public class SignatureField {
      *
      */
     public Boolean isVisible() {
-        return visible;
+	return visible;
     }
 
     /**
      * Sets the value of the visible property.
      *
-     * @param value
-     *            allowed object is {@link Boolean }
+     * @param value allowed object is {@link Boolean }
      *
      */
     public void setVisible(Boolean value) {
-        this.visible = value;
+	this.visible = value;
     }
 
     /**
@@ -208,18 +198,17 @@ public class SignatureField {
      *
      */
     public String getSigner() {
-        return signer;
+	return signer;
     }
 
     /**
      * Sets the value of the signer property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setSigner(String value) {
-        this.signer = value;
+	this.signer = value;
     }
 
     /**
@@ -229,18 +218,17 @@ public class SignatureField {
      *
      */
     public String getLocation() {
-        return location;
+	return location;
     }
 
     /**
      * Sets the value of the location property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setLocation(String value) {
-        this.location = value;
+	this.location = value;
     }
 
     /**
@@ -250,17 +238,16 @@ public class SignatureField {
      *
      */
     public String getReason() {
-        return reason;
+	return reason;
     }
 
     /**
      * Sets the value of the reason property.
      *
-     * @param value
-     *            allowed object is {@link String }
+     * @param value allowed object is {@link String }
      *
      */
     public void setReason(String value) {
-        this.reason = value;
+	this.reason = value;
     }
 }
